@@ -1,18 +1,18 @@
-import React from 'react'
-import PropTypes from 'prop-types'
-import Helmet from 'react-helmet'
-import {graphql} from 'gatsby'
-import {HTMLContent} from '../components/Content'
-import AboutPageTemplate from '../components/AboutPageTemplate'
+import React from "react";
+import PropTypes from "prop-types";
+import Helmet from "react-helmet";
+import { graphql } from "gatsby";
+import { HTMLContent } from "../components/Content";
+import AboutPageTemplate from "../components/AboutPageTemplate";
 
-const AboutPage = ({data}) => {
-  const {markdownRemark: post} = data
+const AboutPage = ({ data }) => {
+  const { markdownRemark: post } = data;
 
   return (
     <div>
       <Helmet>
         <title>{post.frontmatter.meta_title}</title>
-        <meta name='description' content={post.frontmatter.meta_description} />
+        <meta name="description" content={post.frontmatter.meta_description} />
       </Helmet>
       <AboutPageTemplate
         contentComponent={HTMLContent}
@@ -20,14 +20,14 @@ const AboutPage = ({data}) => {
         content={post.html}
       />
     </div>
-  )
-}
+  );
+};
 
 AboutPage.propTypes = {
-  data: PropTypes.object.isRequired,
-}
+  data: PropTypes.object.isRequired
+};
 
-export default AboutPage
+export default AboutPage;
 
 export const aboutPageQuery = graphql`
   query AboutPage($id: String!) {
@@ -40,4 +40,4 @@ export const aboutPageQuery = graphql`
       }
     }
   }
-`
+`;
