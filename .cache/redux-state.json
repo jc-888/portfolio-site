@@ -825,6 +825,10 @@
         ],
         "devDependencies": [
           {
+            "name": "gh-pages",
+            "version": "^2.0.1"
+          },
+          {
             "name": "prettier",
             "version": "^1.16.4"
           }
@@ -952,12 +956,12 @@
       },
       "pathPrefix": "/jaconjcondes",
       "polyfill": true,
-      "buildTime": "2019-03-21T07:59:47.428Z",
+      "buildTime": "2019-03-21T08:03:34.308Z",
       "id": "Site",
       "parent": null,
       "children": [],
       "internal": {
-        "contentDigest": "6670013671ce5ae66d2d8c9187fbfa55",
+        "contentDigest": "65978a4474cfd637b5e7c4b9a12f3591",
         "type": "Site",
         "owner": "internal-data-bridge"
       }
@@ -967,7 +971,7 @@
       "children": [],
       "parent": null,
       "internal": {
-        "contentDigest": "56402e34b8082df28e2333e3a7ddcba5",
+        "contentDigest": "a1071d0bea075910a6a9944e002aad1d",
         "type": "Directory",
         "description": "Directory \"src/images\"",
         "owner": "gatsby-source-filesystem"
@@ -979,7 +983,7 @@
       "size": 128,
       "prettySize": "128 B",
       "modifiedTime": "2019-03-21T07:46:14.778Z",
-      "accessTime": "2019-03-21T07:59:54.543Z",
+      "accessTime": "2019-03-21T08:03:40.413Z",
       "changeTime": "2019-03-21T07:46:14.778Z",
       "birthTime": "2019-03-21T07:46:14.777Z",
       "root": "/",
@@ -997,11 +1001,11 @@
       "blksize": 4096,
       "ino": 14393088,
       "blocks": 0,
-      "atimeMs": 1553155194543.117,
+      "atimeMs": 1553155420412.8867,
       "mtimeMs": 1553154374778.342,
       "ctimeMs": 1553154374778.342,
       "birthtimeMs": 1553154374777.034,
-      "atime": "2019-03-21T07:59:54.543Z",
+      "atime": "2019-03-21T08:03:40.413Z",
       "mtime": "2019-03-21T07:46:14.778Z",
       "ctime": "2019-03-21T07:46:14.778Z",
       "birthtime": "2019-03-21T07:46:14.777Z"
@@ -1026,7 +1030,7 @@
       "size": 21212,
       "prettySize": "21.2 kB",
       "modifiedTime": "2019-03-21T07:46:14.779Z",
-      "accessTime": "2019-03-21T07:56:35.095Z",
+      "accessTime": "2019-03-21T08:01:54.875Z",
       "changeTime": "2019-03-21T07:46:14.779Z",
       "birthTime": "2019-03-21T07:46:14.778Z",
       "root": "/",
@@ -1044,11 +1048,11 @@
       "blksize": 4096,
       "ino": 14393090,
       "blocks": 48,
-      "atimeMs": 1553154995094.6697,
+      "atimeMs": 1553155314874.7627,
       "mtimeMs": 1553154374778.5525,
       "ctimeMs": 1553154374778.5525,
       "birthtimeMs": 1553154374778.3347,
-      "atime": "2019-03-21T07:56:35.095Z",
+      "atime": "2019-03-21T08:01:54.875Z",
       "mtime": "2019-03-21T07:46:14.779Z",
       "ctime": "2019-03-21T07:46:14.779Z",
       "birthtime": "2019-03-21T07:46:14.778Z"
@@ -1083,7 +1087,7 @@
       "size": 167273,
       "prettySize": "167 kB",
       "modifiedTime": "2019-03-21T07:46:14.778Z",
-      "accessTime": "2019-03-21T07:56:35.095Z",
+      "accessTime": "2019-03-21T08:01:47.109Z",
       "changeTime": "2019-03-21T07:46:14.778Z",
       "birthTime": "2019-03-21T07:46:14.777Z",
       "root": "/",
@@ -1101,11 +1105,11 @@
       "blksize": 4096,
       "ino": 14393089,
       "blocks": 328,
-      "atimeMs": 1553154995094.6272,
+      "atimeMs": 1553155307109.0962,
       "mtimeMs": 1553154374778.216,
       "ctimeMs": 1553154374778.216,
       "birthtimeMs": 1553154374777.1,
-      "atime": "2019-03-21T07:56:35.095Z",
+      "atime": "2019-03-21T08:01:47.109Z",
       "mtime": "2019-03-21T07:46:14.778Z",
       "ctime": "2019-03-21T07:46:14.778Z",
       "birthtime": "2019-03-21T07:46:14.777Z"
@@ -1203,13 +1207,13 @@
   },
   "status": {
     "plugins": {},
-    "PLUGINS_HASH": "207d7ab39939e95cd330cf6764ebdc0a"
+    "PLUGINS_HASH": "bf16aa74f1bf99e863df9f1be05e72c4"
   },
   "componentDataDependencies": {
     "nodes": {
       "Site": [
-        "sq--src-components-seo-js",
-        "sq--src-components-layout-js"
+        "sq--src-components-layout-js",
+        "sq--src-components-seo-js"
       ],
       "9bc38995-d19c-5c78-bb79-61cb276dd08c": [
         "sq--src-components-image-js"
@@ -1245,14 +1249,6 @@
     }
   },
   "staticQueryComponents": {
-    "sq--src-components-seo-js": {
-      "name": "usersJaconcondesDesktopPersonalSiteSrcComponentsSeoJs2417117884",
-      "componentPath": "/Users/jaconcondes/Desktop/Personal-Site/src/components/seo.js",
-      "id": "sq--src-components-seo-js",
-      "jsonName": "sq--src-components-seo-js",
-      "query": "query usersJaconcondesDesktopPersonalSiteSrcComponentsSeoJs2417117884 {\n  site {\n    siteMetadata {\n      title\n      description\n      author\n    }\n  }\n}\n",
-      "hash": 2417117884
-    },
     "sq--src-components-image-js": {
       "name": "usersJaconcondesDesktopPersonalSiteSrcComponentsImageJs2011440971",
       "componentPath": "/Users/jaconcondes/Desktop/Personal-Site/src/components/image.js",
@@ -1268,6 +1264,14 @@
       "jsonName": "sq--src-components-layout-js",
       "query": "query SiteTitleQuery {\n  site {\n    siteMetadata {\n      title\n    }\n  }\n}\n",
       "hash": 755544856
+    },
+    "sq--src-components-seo-js": {
+      "name": "usersJaconcondesDesktopPersonalSiteSrcComponentsSeoJs2417117884",
+      "componentPath": "/Users/jaconcondes/Desktop/Personal-Site/src/components/seo.js",
+      "id": "sq--src-components-seo-js",
+      "jsonName": "sq--src-components-seo-js",
+      "query": "query usersJaconcondesDesktopPersonalSiteSrcComponentsSeoJs2417117884 {\n  site {\n    siteMetadata {\n      title\n      description\n      author\n    }\n  }\n}\n",
+      "hash": 2417117884
     }
   }
 }
