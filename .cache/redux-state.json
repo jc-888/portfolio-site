@@ -956,12 +956,12 @@
       },
       "pathPrefix": "/jaconjcondes",
       "polyfill": true,
-      "buildTime": "2019-03-21T08:05:21.375Z",
+      "buildTime": "2019-03-21T08:07:28.753Z",
       "id": "Site",
       "parent": null,
       "children": [],
       "internal": {
-        "contentDigest": "3af5bb9930007ad65bcd0835559398e1",
+        "contentDigest": "7b5dd769b95fc81a2b83fec63216f6da",
         "type": "Site",
         "owner": "internal-data-bridge"
       }
@@ -971,7 +971,7 @@
       "children": [],
       "parent": null,
       "internal": {
-        "contentDigest": "a74ed0ffd3908507e294640f5a621ae2",
+        "contentDigest": "58e4239167012123621ad43b5a784ff2",
         "type": "Directory",
         "description": "Directory \"src/images\"",
         "owner": "gatsby-source-filesystem"
@@ -983,7 +983,7 @@
       "size": 128,
       "prettySize": "128 B",
       "modifiedTime": "2019-03-21T07:46:14.778Z",
-      "accessTime": "2019-03-21T08:05:27.916Z",
+      "accessTime": "2019-03-21T08:07:31.116Z",
       "changeTime": "2019-03-21T07:46:14.778Z",
       "birthTime": "2019-03-21T07:46:14.777Z",
       "root": "/",
@@ -1001,11 +1001,11 @@
       "blksize": 4096,
       "ino": 14393088,
       "blocks": 0,
-      "atimeMs": 1553155527915.8833,
+      "atimeMs": 1553155651115.7583,
       "mtimeMs": 1553154374778.342,
       "ctimeMs": 1553154374778.342,
       "birthtimeMs": 1553154374777.034,
-      "atime": "2019-03-21T08:05:27.916Z",
+      "atime": "2019-03-21T08:07:31.116Z",
       "mtime": "2019-03-21T07:46:14.778Z",
       "ctime": "2019-03-21T07:46:14.778Z",
       "birthtime": "2019-03-21T07:46:14.777Z"
