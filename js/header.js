@@ -73,8 +73,8 @@ var _React = React,
   render = _ReactDOM.render,
   files = "./images/intro",
   content = {
-    title: "Inesa Doe",
-    subtitle: "UI/UX Designer",
+    title: "Jacon Condes",
+    subtitle: "Full Stack Developer",
     iphone: {
       title: "Design",
       paragraph: "Creative user experience focused on intuitivity and usability.",
