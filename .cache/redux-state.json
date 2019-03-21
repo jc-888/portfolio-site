@@ -756,7 +756,7 @@
       "resolve": "/Users/jaconcondes/Desktop/Personal-Site",
       "id": "7374ebf2-d961-52ee-92a2-c25e7cb387a9",
       "name": "default-site-plugin",
-      "version": "785112c8794e999cd6ca6aebce3cf407",
+      "version": "172d49e081f185bce494f17dd0e16b4a",
       "pluginOptions": {
         "plugins": []
       },
@@ -840,7 +840,7 @@
       "parent": null,
       "children": [],
       "internal": {
-        "contentDigest": "7ce87a5ec96bbdb6e8dcf5b5763e2006",
+        "contentDigest": "2a100c6edf71ac28e50c7cea7d5076c7",
         "type": "SitePlugin",
         "owner": "internal-data-bridge"
       }
@@ -956,12 +956,12 @@
       },
       "pathPrefix": "/jaconjcondes",
       "polyfill": true,
-      "buildTime": "2019-03-21T08:03:34.308Z",
+      "buildTime": "2019-03-21T08:05:21.375Z",
       "id": "Site",
       "parent": null,
       "children": [],
       "internal": {
-        "contentDigest": "65978a4474cfd637b5e7c4b9a12f3591",
+        "contentDigest": "3af5bb9930007ad65bcd0835559398e1",
         "type": "Site",
         "owner": "internal-data-bridge"
       }
@@ -971,7 +971,7 @@
       "children": [],
       "parent": null,
       "internal": {
-        "contentDigest": "a1071d0bea075910a6a9944e002aad1d",
+        "contentDigest": "a74ed0ffd3908507e294640f5a621ae2",
         "type": "Directory",
         "description": "Directory \"src/images\"",
         "owner": "gatsby-source-filesystem"
@@ -983,7 +983,7 @@
       "size": 128,
       "prettySize": "128 B",
       "modifiedTime": "2019-03-21T07:46:14.778Z",
-      "accessTime": "2019-03-21T08:03:40.413Z",
+      "accessTime": "2019-03-21T08:05:27.916Z",
       "changeTime": "2019-03-21T07:46:14.778Z",
       "birthTime": "2019-03-21T07:46:14.777Z",
       "root": "/",
@@ -1001,11 +1001,11 @@
       "blksize": 4096,
       "ino": 14393088,
       "blocks": 0,
-      "atimeMs": 1553155420412.8867,
+      "atimeMs": 1553155527915.8833,
       "mtimeMs": 1553154374778.342,
       "ctimeMs": 1553154374778.342,
       "birthtimeMs": 1553154374777.034,
-      "atime": "2019-03-21T08:03:40.413Z",
+      "atime": "2019-03-21T08:05:27.916Z",
       "mtime": "2019-03-21T07:46:14.778Z",
       "ctime": "2019-03-21T07:46:14.778Z",
       "birthtime": "2019-03-21T07:46:14.777Z"
@@ -1030,7 +1030,7 @@
       "size": 21212,
       "prettySize": "21.2 kB",
       "modifiedTime": "2019-03-21T07:46:14.779Z",
-      "accessTime": "2019-03-21T08:01:54.875Z",
+      "accessTime": "2019-03-21T08:05:17.386Z",
       "changeTime": "2019-03-21T07:46:14.779Z",
       "birthTime": "2019-03-21T07:46:14.778Z",
       "root": "/",
@@ -1048,11 +1048,11 @@
       "blksize": 4096,
       "ino": 14393090,
       "blocks": 48,
-      "atimeMs": 1553155314874.7627,
+      "atimeMs": 1553155517385.997,
       "mtimeMs": 1553154374778.5525,
       "ctimeMs": 1553154374778.5525,
       "birthtimeMs": 1553154374778.3347,
-      "atime": "2019-03-21T08:01:54.875Z",
+      "atime": "2019-03-21T08:05:17.386Z",
       "mtime": "2019-03-21T07:46:14.779Z",
       "ctime": "2019-03-21T07:46:14.779Z",
       "birthtime": "2019-03-21T07:46:14.778Z"
@@ -1087,7 +1087,7 @@
       "size": 167273,
       "prettySize": "167 kB",
       "modifiedTime": "2019-03-21T07:46:14.778Z",
-      "accessTime": "2019-03-21T08:01:47.109Z",
+      "accessTime": "2019-03-21T08:05:17.386Z",
       "changeTime": "2019-03-21T07:46:14.778Z",
       "birthTime": "2019-03-21T07:46:14.777Z",
       "root": "/",
@@ -1105,11 +1105,11 @@
       "blksize": 4096,
       "ino": 14393089,
       "blocks": 328,
-      "atimeMs": 1553155307109.0962,
+      "atimeMs": 1553155517385.9922,
       "mtimeMs": 1553154374778.216,
       "ctimeMs": 1553154374778.216,
       "birthtimeMs": 1553154374777.1,
-      "atime": "2019-03-21T08:01:47.109Z",
+      "atime": "2019-03-21T08:05:17.386Z",
       "mtime": "2019-03-21T07:46:14.778Z",
       "ctime": "2019-03-21T07:46:14.778Z",
       "birthtime": "2019-03-21T07:46:14.777Z"
@@ -1207,7 +1207,7 @@
   },
   "status": {
     "plugins": {},
-    "PLUGINS_HASH": "bf16aa74f1bf99e863df9f1be05e72c4"
+    "PLUGINS_HASH": "ce30c68e4d3e2c5b0004f2e6fbd4b88f"
   },
   "componentDataDependencies": {
     "nodes": {
