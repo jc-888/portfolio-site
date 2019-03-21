@@ -1,22 +1,13 @@
 {
   "nodes": {
     "SitePage /dev-404-page/": {
-      "jsonName": "dev-404-page-5f9",
-      "internalComponentName": "ComponentDev404Page",
       "path": "/dev-404-page/",
-      "component": "/Users/jaconcondes/Desktop/Personal-Site/.cache/dev-404-page.js",
-      "componentChunkName": "component---cache-dev-404-page-js",
-      "context": {},
-      "pluginCreator___NODE": "d48d1c52-fe48-53cb-8f08-aa4b47dde5a5",
-      "pluginCreatorId": "d48d1c52-fe48-53cb-8f08-aa4b47dde5a5",
-      "componentPath": "/Users/jaconcondes/Desktop/Personal-Site/.cache/dev-404-page.js",
       "id": "SitePage /dev-404-page/",
       "parent": null,
       "children": [],
       "internal": {
         "type": "SitePage",
-        "contentDigest": "a1e4fe38444f689f2bdef4515949b1b6",
-        "description": "d48d1c52-fe48-53cb-8f08-aa4b47dde5a5",
+        "contentDigest": "f91d29e10ba680b413138cf9ed86e655",
         "owner": "internal-data-bridge"
       }
     },
@@ -312,6 +303,133 @@
       "children": [],
       "internal": {
         "contentDigest": "ff6c59f0ef7ab27dd9fdbd4a868da4ad",
+        "type": "SitePlugin",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "3ac2bdc1-d6cb-5c31-8c7b-825e621c6925": {
+      "resolve": "/Users/jaconcondes/Desktop/Personal-Site/node_modules/gatsby-source-filesystem",
+      "id": "3ac2bdc1-d6cb-5c31-8c7b-825e621c6925",
+      "name": "gatsby-source-filesystem",
+      "version": "2.0.27",
+      "pluginOptions": {
+        "plugins": [],
+        "name": "images",
+        "path": "/Users/jaconcondes/Desktop/Personal-Site/src/images"
+      },
+      "nodeAPIs": [
+        "sourceNodes",
+        "setFieldsOnGraphQLNodeType"
+      ],
+      "browserAPIs": [],
+      "ssrAPIs": [],
+      "pluginFilepath": "/Users/jaconcondes/Desktop/Personal-Site/node_modules/gatsby-source-filesystem",
+      "packageJson": {
+        "name": "gatsby-source-filesystem",
+        "description": "Gatsby plugin which parses files within a directory for further parsing by other plugins",
+        "version": "2.0.27",
+        "keywords": [
+          "gatsby",
+          "gatsby-plugin"
+        ],
+        "author": {
+          "name": "Kyle Mathews",
+          "email": "mathews.kyle@gmail.com"
+        },
+        "license": "MIT",
+        "dependencies": [
+          {
+            "name": "@babel/runtime",
+            "version": "^7.0.0"
+          },
+          {
+            "name": "better-queue",
+            "version": "^3.8.7"
+          },
+          {
+            "name": "bluebird",
+            "version": "^3.5.0"
+          },
+          {
+            "name": "chokidar",
+            "version": "^2.1.2"
+          },
+          {
+            "name": "file-type",
+            "version": "^10.2.0"
+          },
+          {
+            "name": "fs-extra",
+            "version": "^5.0.0"
+          },
+          {
+            "name": "got",
+            "version": "^7.1.0"
+          },
+          {
+            "name": "md5-file",
+            "version": "^3.1.1"
+          },
+          {
+            "name": "mime",
+            "version": "^2.2.0"
+          },
+          {
+            "name": "pretty-bytes",
+            "version": "^4.0.2"
+          },
+          {
+            "name": "progress",
+            "version": "^1.1.8"
+          },
+          {
+            "name": "read-chunk",
+            "version": "^3.0.0"
+          },
+          {
+            "name": "slash",
+            "version": "^1.0.0"
+          },
+          {
+            "name": "valid-url",
+            "version": "^1.0.9"
+          },
+          {
+            "name": "xstate",
+            "version": "^3.1.0"
+          }
+        ],
+        "devDependencies": [
+          {
+            "name": "@babel/cli",
+            "version": "^7.0.0"
+          },
+          {
+            "name": "@babel/core",
+            "version": "^7.0.0"
+          },
+          {
+            "name": "babel-preset-gatsby-package",
+            "version": "^0.1.4"
+          },
+          {
+            "name": "cross-env",
+            "version": "^5.1.4"
+          }
+        ],
+        "peerDependencies": [
+          {
+            "name": "gatsby",
+            "version": "^2.0.0"
+          }
+        ],
+        "optionalDependecies": [],
+        "bundledDependecies": []
+      },
+      "parent": null,
+      "children": [],
+      "internal": {
+        "contentDigest": "8a3f2133daa83ed4ba6219029dfa880e",
         "type": "SitePlugin",
         "owner": "internal-data-bridge"
       }
@@ -638,7 +756,7 @@
       "resolve": "/Users/jaconcondes/Desktop/Personal-Site",
       "id": "7374ebf2-d961-52ee-92a2-c25e7cb387a9",
       "name": "default-site-plugin",
-      "version": "cd161a2b84bb9a0507ad31e8a2bf5a34",
+      "version": "785112c8794e999cd6ca6aebce3cf407",
       "pluginOptions": {
         "plugins": []
       },
@@ -718,154 +836,7 @@
       "parent": null,
       "children": [],
       "internal": {
-        "contentDigest": "9550dbd037b2226e7aff81aa69f01381",
-        "type": "SitePlugin",
-        "owner": "internal-data-bridge"
-      }
-    },
-    "Site": {
-      "siteMetadata": {
-        "title": "Gatsby Default Starter",
-        "description": "Kick off your next, great Gatsby project with this default starter. This barebones starter ships with the main Gatsby configuration files you might need.",
-        "author": "@gatsbyjs"
-      },
-      "port": "8000",
-      "host": "localhost",
-      "pathPrefix": "",
-      "polyfill": true,
-      "buildTime": "2019-03-21T07:55:10.776Z",
-      "id": "Site",
-      "parent": null,
-      "children": [],
-      "internal": {
-        "contentDigest": "d41b41fc86ca8623d40559d1bd7b0ca9",
-        "type": "Site",
-        "owner": "internal-data-bridge"
-      }
-    },
-    "3ac2bdc1-d6cb-5c31-8c7b-825e621c6925": {
-      "resolve": "/Users/jaconcondes/Desktop/Personal-Site/node_modules/gatsby-source-filesystem",
-      "id": "3ac2bdc1-d6cb-5c31-8c7b-825e621c6925",
-      "name": "gatsby-source-filesystem",
-      "version": "2.0.27",
-      "pluginOptions": {
-        "plugins": [],
-        "name": "images",
-        "path": "/Users/jaconcondes/Desktop/Personal-Site/src/images"
-      },
-      "nodeAPIs": [
-        "sourceNodes",
-        "setFieldsOnGraphQLNodeType"
-      ],
-      "browserAPIs": [],
-      "ssrAPIs": [],
-      "pluginFilepath": "/Users/jaconcondes/Desktop/Personal-Site/node_modules/gatsby-source-filesystem",
-      "packageJson": {
-        "name": "gatsby-source-filesystem",
-        "description": "Gatsby plugin which parses files within a directory for further parsing by other plugins",
-        "version": "2.0.27",
-        "keywords": [
-          "gatsby",
-          "gatsby-plugin"
-        ],
-        "author": {
-          "name": "Kyle Mathews",
-          "email": "mathews.kyle@gmail.com"
-        },
-        "license": "MIT",
-        "dependencies": [
-          {
-            "name": "@babel/runtime",
-            "version": "^7.0.0"
-          },
-          {
-            "name": "better-queue",
-            "version": "^3.8.7"
-          },
-          {
-            "name": "bluebird",
-            "version": "^3.5.0"
-          },
-          {
-            "name": "chokidar",
-            "version": "^2.1.2"
-          },
-          {
-            "name": "file-type",
-            "version": "^10.2.0"
-          },
-          {
-            "name": "fs-extra",
-            "version": "^5.0.0"
-          },
-          {
-            "name": "got",
-            "version": "^7.1.0"
-          },
-          {
-            "name": "md5-file",
-            "version": "^3.1.1"
-          },
-          {
-            "name": "mime",
-            "version": "^2.2.0"
-          },
-          {
-            "name": "pretty-bytes",
-            "version": "^4.0.2"
-          },
-          {
-            "name": "progress",
-            "version": "^1.1.8"
-          },
-          {
-            "name": "read-chunk",
-            "version": "^3.0.0"
-          },
-          {
-            "name": "slash",
-            "version": "^1.0.0"
-          },
-          {
-            "name": "valid-url",
-            "version": "^1.0.9"
-          },
-          {
-            "name": "xstate",
-            "version": "^3.1.0"
-          }
-        ],
-        "devDependencies": [
-          {
-            "name": "@babel/cli",
-            "version": "^7.0.0"
-          },
-          {
-            "name": "@babel/core",
-            "version": "^7.0.0"
-          },
-          {
-            "name": "babel-preset-gatsby-package",
-            "version": "^0.1.4"
-          },
-          {
-            "name": "cross-env",
-            "version": "^5.1.4"
-          }
-        ],
-        "peerDependencies": [
-          {
-            "name": "gatsby",
-            "version": "^2.0.0"
-          }
-        ],
-        "optionalDependecies": [],
-        "bundledDependecies": []
-      },
-      "parent": null,
-      "children": [],
-      "internal": {
-        "contentDigest": "8a3f2133daa83ed4ba6219029dfa880e",
+        "contentDigest": "7ce87a5ec96bbdb6e8dcf5b5763e2006",
         "type": "SitePlugin",
         "owner": "internal-data-bridge"
       }
@@ -973,12 +944,30 @@
         "owner": "internal-data-bridge"
       }
     },
+    "Site": {
+      "siteMetadata": {
+        "title": "Gatsby Default Starter",
+        "description": "Kick off your next, great Gatsby project with this default starter. This barebones starter ships with the main Gatsby configuration files you might need.",
+        "author": "@gatsbyjs"
+      },
+      "pathPrefix": "/jaconjcondes",
+      "polyfill": true,
+      "buildTime": "2019-03-21T07:59:47.428Z",
+      "id": "Site",
+      "parent": null,
+      "children": [],
+      "internal": {
+        "contentDigest": "6670013671ce5ae66d2d8c9187fbfa55",
+        "type": "Site",
+        "owner": "internal-data-bridge"
+      }
+    },
     "e41c2211-32e5-58ff-83fe-1922760d01ce": {
       "id": "e41c2211-32e5-58ff-83fe-1922760d01ce",
       "children": [],
       "parent": null,
       "internal": {
-        "contentDigest": "f65725ad40902e629c5dbf09c49edc16",
+        "contentDigest": "56402e34b8082df28e2333e3a7ddcba5",
         "type": "Directory",
         "description": "Directory \"src/images\"",
         "owner": "gatsby-source-filesystem"
@@ -990,7 +979,7 @@
       "size": 128,
       "prettySize": "128 B",
       "modifiedTime": "2019-03-21T07:46:14.778Z",
-      "accessTime": "2019-03-21T07:55:18.535Z",
+      "accessTime": "2019-03-21T07:59:54.543Z",
       "changeTime": "2019-03-21T07:46:14.778Z",
       "birthTime": "2019-03-21T07:46:14.777Z",
       "root": "/",
@@ -1008,11 +997,11 @@
       "blksize": 4096,
       "ino": 14393088,
       "blocks": 0,
-      "atimeMs": 1553154918535.186,
+      "atimeMs": 1553155194543.117,
       "mtimeMs": 1553154374778.342,
       "ctimeMs": 1553154374778.342,
       "birthtimeMs": 1553154374777.034,
-      "atime": "2019-03-21T07:55:18.535Z",
+      "atime": "2019-03-21T07:59:54.543Z",
       "mtime": "2019-03-21T07:46:14.778Z",
       "ctime": "2019-03-21T07:46:14.778Z",
       "birthtime": "2019-03-21T07:46:14.777Z"
@@ -1037,7 +1026,7 @@
       "size": 21212,
       "prettySize": "21.2 kB",
       "modifiedTime": "2019-03-21T07:46:14.779Z",
-      "accessTime": "2019-03-21T07:51:47.724Z",
+      "accessTime": "2019-03-21T07:56:35.095Z",
       "changeTime": "2019-03-21T07:46:14.779Z",
       "birthTime": "2019-03-21T07:46:14.778Z",
       "root": "/",
@@ -1055,11 +1044,11 @@
       "blksize": 4096,
       "ino": 14393090,
       "blocks": 48,
-      "atimeMs": 1553154707724.4539,
+      "atimeMs": 1553154995094.6697,
       "mtimeMs": 1553154374778.5525,
       "ctimeMs": 1553154374778.5525,
       "birthtimeMs": 1553154374778.3347,
-      "atime": "2019-03-21T07:51:47.724Z",
+      "atime": "2019-03-21T07:56:35.095Z",
       "mtime": "2019-03-21T07:46:14.779Z",
       "ctime": "2019-03-21T07:46:14.779Z",
       "birthtime": "2019-03-21T07:46:14.778Z"
@@ -1094,7 +1083,7 @@
       "size": 167273,
       "prettySize": "167 kB",
       "modifiedTime": "2019-03-21T07:46:14.778Z",
-      "accessTime": "2019-03-21T07:51:39.835Z",
+      "accessTime": "2019-03-21T07:56:35.095Z",
       "changeTime": "2019-03-21T07:46:14.778Z",
       "birthTime": "2019-03-21T07:46:14.777Z",
       "root": "/",
@@ -1112,11 +1101,11 @@
       "blksize": 4096,
       "ino": 14393089,
       "blocks": 328,
-      "atimeMs": 1553154699835.1987,
+      "atimeMs": 1553154995094.6272,
       "mtimeMs": 1553154374778.216,
       "ctimeMs": 1553154374778.216,
       "birthtimeMs": 1553154374777.1,
-      "atime": "2019-03-21T07:51:39.835Z",
+      "atime": "2019-03-21T07:56:35.095Z",
       "mtime": "2019-03-21T07:46:14.778Z",
       "ctime": "2019-03-21T07:46:14.778Z",
       "birthtime": "2019-03-21T07:46:14.777Z"
@@ -1214,16 +1203,14 @@
   },
   "status": {
     "plugins": {},
-    "PLUGINS_HASH": "28b1f2ba9350d2289fc59dbb90a52c01"
+    "PLUGINS_HASH": "207d7ab39939e95cd330cf6764ebdc0a"
   },
   "componentDataDependencies": {
     "nodes": {
       "Site": [
-        "sq--src-components-layout-js",
-        "sq--src-components-seo-js"
+        "sq--src-components-seo-js",
+        "sq--src-components-layout-js"
       ],
-      "d4a7af13-0b1d-5fab-abf1-f4747e8fc6ab": [],
-      "eaa3d6b0-f493-5f25-8915-56d595bf4bb8": [],
       "9bc38995-d19c-5c78-bb79-61cb276dd08c": [
         "sq--src-components-image-js"
       ],
@@ -1244,10 +1231,6 @@
     "sq--src-components-image-js": 2011440971
   },
   "components": {
-    "/Users/jaconcondes/Desktop/Personal-Site/.cache/dev-404-page.js": {
-      "query": "",
-      "componentPath": "/Users/jaconcondes/Desktop/Personal-Site/.cache/dev-404-page.js"
-    },
     "/Users/jaconcondes/Desktop/Personal-Site/src/pages/404.js": {
       "query": "",
       "componentPath": "/Users/jaconcondes/Desktop/Personal-Site/src/pages/404.js"
@@ -1262,6 +1245,14 @@
     }
   },
   "staticQueryComponents": {
+    "sq--src-components-seo-js": {
+      "name": "usersJaconcondesDesktopPersonalSiteSrcComponentsSeoJs2417117884",
+      "componentPath": "/Users/jaconcondes/Desktop/Personal-Site/src/components/seo.js",
+      "id": "sq--src-components-seo-js",
+      "jsonName": "sq--src-components-seo-js",
+      "query": "query usersJaconcondesDesktopPersonalSiteSrcComponentsSeoJs2417117884 {\n  site {\n    siteMetadata {\n      title\n      description\n      author\n    }\n  }\n}\n",
+      "hash": 2417117884
+    },
     "sq--src-components-image-js": {
       "name": "usersJaconcondesDesktopPersonalSiteSrcComponentsImageJs2011440971",
       "componentPath": "/Users/jaconcondes/Desktop/Personal-Site/src/components/image.js",
@@ -1277,14 +1268,6 @@
       "jsonName": "sq--src-components-layout-js",
       "query": "query SiteTitleQuery {\n  site {\n    siteMetadata {\n      title\n    }\n  }\n}\n",
       "hash": 755544856
-    },
-    "sq--src-components-seo-js": {
-      "name": "usersJaconcondesDesktopPersonalSiteSrcComponentsSeoJs2417117884",
-      "componentPath": "/Users/jaconcondes/Desktop/Personal-Site/src/components/seo.js",
-      "id": "sq--src-components-seo-js",
-      "jsonName": "sq--src-components-seo-js",
-      "query": "query usersJaconcondesDesktopPersonalSiteSrcComponentsSeoJs2417117884 {\n  site {\n    siteMetadata {\n      title\n      description\n      author\n    }\n  }\n}\n",
-      "hash": 2417117884
     }
   }
 }
