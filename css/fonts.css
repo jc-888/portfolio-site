@@ -3,7 +3,8 @@
   margin: 0;
 }
 
-body, html {
+body,
+html {
   height: 100%;
   width: 100%;
   text-rendering: optimizeLegibility;
@@ -15,17 +16,17 @@ a {
   color: inherit;
 }
 
-svg, img {
+svg,
+img {
   -webkit-user-select: none;
-     -moz-user-select: none;
-      -ms-user-select: none;
-          user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
   pointer-events: none;
 }
 
-
 .huge-side {
-  min-height: 100vh
+  min-height: 100vh;
 }
 
 .left-side {
@@ -65,7 +66,7 @@ svg, img {
 }
 
 .left-side .social-icons li a:hover {
-  opacity: .8;
+  opacity: 0.8;
 }
 
 .right-side {
@@ -75,6 +76,6 @@ svg, img {
 
 .right-side .huge-background-img {
   height: 100vh;
-  background: #ECF3F7;
+  background: #ecf3f7;
   position: relative;
 }
