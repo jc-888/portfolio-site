@@ -164,6 +164,21 @@ a:not([href]):not([tabindex]) {
   cursor: pointer;
 }
 
+.ty_message {
+  border-radius: 25px;
+  padding: 10px;
+  margin: 10px;
+  text-align: center;
+  color: #fff;
+  background: -webkit-radial-gradient(
+    left top,
+    circle cover,
+    rgb(12, 180, 206) 9%,
+    rgb(0, 108, 255) 48%,
+    rgb(100, 66, 255) 91%
+  );
+}
+
 .btn {
   border: 2px solid transparent;
   border-radius: 0;
@@ -678,7 +693,7 @@ h2.menu-item:after {
   color: #333;
   padding-bottom: 15px;
   border-bottom: 1px solid #ddd;
-  margin-bottom: 30px;
+  margin-bottom: 15px;
   font-weight: 600;
   -webkit-text-fill-color: transparent !important;
   -webkit-background-clip: text !important;
