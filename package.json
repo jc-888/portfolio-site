@@ -1,0 +1,20 @@
+{
+  "name": "jaconjcondes",
+  "version": "1.0.0",
+  "description": "My Portfolio Site",
+  "main": "index.html",
+  "scripts": {
+    "start": "open -a 'Google Chrome' index.html",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jakec888/jaconjcondes.git"
+  },
+  "author": "Jacon J Condes",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jakec888/jaconjcondes/issues"
+  },
+  "homepage": "https://github.com/jakec888/jaconjcondes#readme"
+}
