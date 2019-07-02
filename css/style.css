@@ -705,8 +705,9 @@ h2.menu-item:after {
   border-bottom: 1px solid #ddd;
   margin-bottom: 15px;
   font-weight: 600;
+  background-clip: text;
   -webkit-text-fill-color: transparent !important;
-  /* -webkit-background-clip: text !important; */
+  -webkit-background-clip: text !important;
   background: radial-gradient(
     left top,
     circle cover,
