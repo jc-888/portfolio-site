@@ -74,7 +74,8 @@ var _React = React,
   files = "./images/intro",
   content = {
     title: "Jacon Condes",
-    subtitle: "Full Stack Developer",
+    subtitle1: "Full Stack Developer",
+    subtitle2: "Software Engineer",
     iphone: {
       title: "Design",
       paragraph: "Creative user experience focused on intuitivity and usability.",
@@ -1416,7 +1417,21 @@ var _React = React,
               {
                 style: d
               },
-              content.subtitle
+              content.subtitle1
+            ),
+            React.createElement(
+              "h5",
+              {
+                style: d
+              },
+              "&"
+            ),
+            React.createElement(
+              "h2",
+              {
+                style: d
+              },
+              content.subtitle2
             )
           );
         }
