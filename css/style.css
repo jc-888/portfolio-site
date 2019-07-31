@@ -745,6 +745,54 @@ h2.menu-item:after {
   );
 }
 
+.published {
+  /* font-size: 24px; */
+  /* text-transform: uppercase; */
+  color: #333;
+  /* padding-bottom: 15px; */
+  /* border-bottom: 1px solid #ddd; */
+  /* margin-bottom: 15px; */
+  /* font-weight: 600; */
+  background-clip: text;
+  -webkit-text-fill-color: transparent !important;
+  -webkit-background-clip: text !important;
+  background: radial-gradient(
+    left top,
+    circle cover,
+    rgb(12, 180, 206) 9%,
+    rgb(0, 108, 255) 48%,
+    rgb(100, 66, 255) 91%
+  );
+  background: -o-radial-gradient(
+    left top,
+    circle cover,
+    rgb(12, 180, 206) 9%,
+    rgb(0, 108, 255) 48%,
+    rgb(100, 66, 255) 91%
+  );
+  background: -ms-radial-gradient(
+    left top,
+    circle cover,
+    rgb(12, 180, 206) 9%,
+    rgb(0, 108, 255) 48%,
+    rgb(100, 66, 255) 91%
+  );
+  background: -moz-radial-gradient(
+    left top,
+    circle cover,
+    rgb(12, 180, 206) 9%,
+    rgb(0, 108, 255) 48%,
+    rgb(100, 66, 255) 91%
+  );
+  background: -webkit-radial-gradient(
+    left top,
+    circle cover,
+    rgb(12, 180, 206) 9%,
+    rgb(0, 108, 255) 48%,
+    rgb(100, 66, 255) 91%
+  );
+}
+
 /*-------------------------------------------------------------------
 
                         5. NAME BLOCK
