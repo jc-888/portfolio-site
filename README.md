@@ -1,6 +1,6 @@
 # Portfolio Site
 
-URL: https://jakec888.github.io/jaconjcondes/
+URL: https://jaconjcondes.com
 
 ## Intro
 
@@ -17,7 +17,7 @@ Enjoy!
 - [Template](https://themeforest.net/)
   A 700+ hour, full time software engineering program focusing on relevant industry technologies.
 
-Software Engineering Projects:
+Software Development and Engineering Projects:
 
 Mobile Email Client
 ➢ Alternative to Gmail Email Client where you control your information and emails in your own personal database securely.
@@ -26,10 +26,6 @@ Mobile Email Client
 Music Book
 ➢ Online audio distribution platform and music sharing website. The site enables its users to upload, promote, and share audio with friends.
 ➢ Built Using: React, Ruby on Rails, PostgreSQL
-
-<!-- Creatures Catalog
-➢ A register of all animal found in a user's location. Users can also add, update, and delete new animals for their geography.
-➢ Built Using: Express JS, Angular, Bootstrap -->
 
 Singles Network
 ➢ This networking site connects singles securely with similar likes and interests.
