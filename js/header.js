@@ -75,7 +75,7 @@ var _React = React,
   content = {
     title: "Jacon Condes",
     subtitle1: "Full Stack Developer",
-    subtitle2: "Software Engineer",
+    // subtitle2: "Software Engineer",
     iphone: {
       title: "Design",
       paragraph: "Creative user experience focused on intuitivity and usability.",
@@ -1424,7 +1424,7 @@ var _React = React,
               {
                 style: d
               },
-              "&"
+              // "&"
             ),
             React.createElement(
               "h2",
