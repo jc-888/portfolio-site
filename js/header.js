@@ -74,8 +74,9 @@ var _React = React,
   files = "./images/intro",
   content = {
     title: "Jacon Condes",
-    subtitle1: "Full Stack Developer",
-    // subtitle2: "Software Engineer",
+    subtitle1: "Full Stack Web Developer",
+    subtitle2: "&",
+    subtitle3: "Full Stack Mobile Developer",
     iphone: {
       title: "Design",
       paragraph: "Creative user experience focused on intuitivity and usability.",
@@ -1420,19 +1421,33 @@ var _React = React,
               content.subtitle1
             ),
             React.createElement(
-              "h5",
+              "h4",
               {
                 style: d
               },
-              // "&"
+              content.subtitle2
             ),
             React.createElement(
               "h2",
               {
                 style: d
               },
-              content.subtitle2
+              content.subtitle3
+            ),
+            React.createElement(
+              "h5",
+              {
+                style: d
+              },
+              // "&"
             )
+            // React.createElement(
+            //   "h2",
+            //   {
+            //     style: d
+            //   },
+            //   content.subtitle2
+            // )
           );
         }
       }
@@ -1466,7 +1481,7 @@ var _React = React,
             React.createElement(
               SceneForeground,
               null,
-              React.createElement(Logo, null),
+              // React.createElement(Logo, null),
               React.createElement(Hero, null)
             )
           );
