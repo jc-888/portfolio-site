@@ -747,10 +747,8 @@ h2.menu-item:after {
 
 .github-link {
   font-weight: bold;
-  text-transform: uppercase;
   color: #333;
   padding-bottom: 15px;
-  border-bottom: 1px solid #ddd;
   margin-bottom: 15px;
   font-weight: 600;
   background-clip: text;
