@@ -229,16 +229,6 @@ export const BlogPostFooter = styled.div`
   }
 `
 
-export const BlogPostComment = styled.div`
-  margin: 0 auto;
-  width: 870px;
-  max-width: 100%;
-  padding-top: 80px;
-  @media (max-width: 990px) {
-    padding-top: 60px;
-  }
-`
-
 export const PostShare = styled.div`
   display: flex;
   align-items: center;
