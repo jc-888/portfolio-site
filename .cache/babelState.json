@@ -1,32 +1,116 @@
 {
   "stages": {
     "develop": {
-      "plugins": [],
-      "presets": [],
+      "plugins": [
+        {
+          "name": "babel-plugin-styled-components",
+          "stage": "develop",
+          "options": {
+            "plugins": [],
+            "minify": false,
+            "ssr": false
+          }
+        },
+        {
+          "name": "babel-plugin-lodash",
+          "options": {}
+        }
+      ],
+      "presets": [
+        {
+          "name": "@babel/preset-typescript",
+          "options": {
+            "plugins": []
+          }
+        }
+      ],
       "options": {
         "cacheDirectory": true,
         "sourceType": "unambiguous"
       }
     },
     "develop-html": {
-      "plugins": [],
-      "presets": [],
+      "plugins": [
+        {
+          "name": "babel-plugin-lodash",
+          "options": {}
+        },
+        {
+          "name": "babel-plugin-styled-components",
+          "stage": "develop-html",
+          "options": {
+            "plugins": [],
+            "minify": false,
+            "ssr": false
+          }
+        }
+      ],
+      "presets": [
+        {
+          "name": "@babel/preset-typescript",
+          "options": {
+            "plugins": []
+          }
+        }
+      ],
       "options": {
         "cacheDirectory": true,
         "sourceType": "unambiguous"
       }
     },
     "build-html": {
-      "plugins": [],
-      "presets": [],
+      "plugins": [
+        {
+          "name": "babel-plugin-lodash",
+          "options": {}
+        },
+        {
+          "name": "babel-plugin-styled-components",
+          "stage": "build-html",
+          "options": {
+            "plugins": [],
+            "minify": false,
+            "ssr": true
+          }
+        }
+      ],
+      "presets": [
+        {
+          "name": "@babel/preset-typescript",
+          "options": {
+            "plugins": []
+          }
+        }
+      ],
       "options": {
         "cacheDirectory": true,
         "sourceType": "unambiguous"
       }
     },
     "build-javascript": {
-      "plugins": [],
-      "presets": [],
+      "plugins": [
+        {
+          "name": "babel-plugin-lodash",
+          "options": {}
+        },
+        {
+          "name": "babel-plugin-styled-components",
+          "stage": "build-javascript",
+          "options": {
+            "plugins": [],
+            "minify": false,
+            "ssr": true
+          }
+        }
+      ],
+      "presets": [
+        {
+          "name": "@babel/preset-typescript",
+          "options": {
+            "plugins": []
+          }
+        }
+      ],
       "options": {
         "cacheDirectory": true,
         "sourceType": "unambiguous"

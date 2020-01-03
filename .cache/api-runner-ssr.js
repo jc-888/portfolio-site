@@ -1,9 +1,21 @@
 var plugins = [{
-      plugin: require('/Users/jaconcondes/Desktop/portfolio-site/node_modules/gatsby-plugin-react-helmet/gatsby-ssr'),
+      plugin: require('/Users/jaconcondes/Desktop/portfolio-site/node_modules/gatsby-plugin-styled-components/gatsby-ssr'),
+      options: {"plugins":[],"minify":false},
+    },{
+      plugin: require('/Users/jaconcondes/Desktop/portfolio-site/node_modules/gatsby-plugin-google-analytics/gatsby-ssr'),
+      options: {"plugins":[]},
+    },{
+      plugin: require('/Users/jaconcondes/Desktop/portfolio-site/node_modules/gatsby-plugin-feed/gatsby-ssr'),
       options: {"plugins":[]},
     },{
       plugin: require('/Users/jaconcondes/Desktop/portfolio-site/node_modules/gatsby-plugin-manifest/gatsby-ssr'),
-      options: {"plugins":[],"name":"gatsby-starter-default","short_name":"starter","start_url":"/","background_color":"#663399","theme_color":"#663399","display":"minimal-ui","icon":"src/images/gatsby-icon.png"},
+      options: {"plugins":[],"name":"Personal Portfolio and Blog","short_name":"Jacon J Condes","start_url":"/","background_color":"#ffffff","theme_color":"#663399","display":"minimal-ui","icon":"content/assets/favicon.png"},
+    },{
+      plugin: require('/Users/jaconcondes/Desktop/portfolio-site/node_modules/gatsby-plugin-react-helmet/gatsby-ssr'),
+      options: {"plugins":[]},
+    },{
+      plugin: require('/Users/jaconcondes/Desktop/portfolio-site/node_modules/gatsby-plugin-prefetch-google-fonts/gatsby-ssr'),
+      options: {"plugins":[],"fonts":[{"family":"Poppins","variants":["300","400","500","600","700"]},{"family":"Fira Sans","variants":["100","300","400","500","600","700"]}]},
     }]
 // During bootstrap, we write requires at top of this file which looks like:
 // var plugins = [
