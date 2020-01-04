@@ -25,7 +25,7 @@ const SignupSchema = Yup.object().shape({
   message: Yup.string().required("Required"),
 })
 
-const Contact: React.SFC<{}> = () => {
+const ContactPage: React.SFC<{}> = () => {
   return (
     <Formik
       initialValues={{ firstName: "", email: "", message: "" }}
@@ -110,4 +110,4 @@ const Contact: React.SFC<{}> = () => {
   )
 }
 
-export default Contact
+export default ContactPage
