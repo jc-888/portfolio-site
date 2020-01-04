@@ -21,9 +21,13 @@ type NavbarProps = {
 }
 
 const MenuItems = [
+  // {
+  //   label: "Home",
+  //   url: "/",
+  // },
   {
-    label: "Home",
-    url: "/",
+    label: "Portfolio",
+    url: "/portfolio",
   },
   {
     label: "About",

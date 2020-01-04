@@ -60,6 +60,11 @@
         "path": "/page/2"
     },
     {
+        "componentChunkName": "component---src-pages-portfolio-tsx",
+        "jsonName": "portfolio-964",
+        "path": "/portfolio/"
+    },
+    {
         "componentChunkName": "component---src-templates-blog-post-tsx",
         "jsonName": "role-of-libraries-d3b",
         "path": "/role-of-libraries/"

@@ -12,6 +12,7 @@ exports.components = {
   "component---src-pages-404-tsx": hot(preferDefault(require("/Users/jaconcondes/Desktop/portfolio-site/src/pages/404.tsx"))),
   "component---src-pages-about-tsx": hot(preferDefault(require("/Users/jaconcondes/Desktop/portfolio-site/src/pages/about.tsx"))),
   "component---src-pages-contact-tsx": hot(preferDefault(require("/Users/jaconcondes/Desktop/portfolio-site/src/pages/contact.tsx"))),
-  "component---src-pages-index-tsx": hot(preferDefault(require("/Users/jaconcondes/Desktop/portfolio-site/src/pages/index.tsx")))
+  "component---src-pages-index-tsx": hot(preferDefault(require("/Users/jaconcondes/Desktop/portfolio-site/src/pages/index.tsx"))),
+  "component---src-pages-portfolio-tsx": hot(preferDefault(require("/Users/jaconcondes/Desktop/portfolio-site/src/pages/portfolio.tsx")))
 }
 
