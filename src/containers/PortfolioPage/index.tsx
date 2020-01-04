@@ -1,6 +1,4 @@
 import * as React from "react"
-import { useStaticQuery, graphql } from "gatsby"
-import Image from "gatsby-image"
 import SocialProfile from "../../components/SocialProfile/SocialProfile"
 import {
   IoLogoFacebook,

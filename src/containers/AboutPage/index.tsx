@@ -66,7 +66,7 @@ const AboutPage: React.FunctionComponent<AboutProps> = props => {
       <AboutPageTitle>
         <h2>About Me</h2>
         <p>
-        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque condimentum magna quis accumsan viverra. Nullam convallis dolor id convallis tempor. Vestibulum eu ante fringilla, ultricies sem varius, lacinia purus. Praesent sollicitudin leo in libero maximus, at varius lacus pretium. Sed fringilla iaculis egestas. Praesent consectetur sit amet felis sit amet scelerisque. Etiam at tincidunt lorem. Nulla tincidunt urna sit amet quam posuere egestas. In nec ornare lectus. In fermentum volutpat velit. Fusce ullamcorper lorem et sollicitudin tempor. Aliquam vitae nunc ut lectus hendrerit consequat vel nec enim.
+        Full-Stack Web & Mobile Developer from the Greater Los Angeles Area.
         </p>
       </AboutPageTitle>
 
@@ -75,17 +75,18 @@ const AboutPage: React.FunctionComponent<AboutProps> = props => {
       </AboutImage>
 
       <AboutDetails>
-        <h2>Hey there, what’s up?</h2>
+        <h2>Who, Me?</h2>
         <p>
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque condimentum magna quis accumsan viverra. Nullam convallis dolor id convallis tempor. Vestibulum eu ante fringilla, ultricies sem varius, lacinia purus. Praesent sollicitudin leo in libero maximus, at varius lacus pretium. Sed fringilla iaculis egestas. Praesent consectetur sit amet felis sit amet scelerisque. Etiam at tincidunt lorem. Nulla tincidunt urna sit amet quam posuere egestas. In nec ornare lectus. In fermentum volutpat velit. Fusce ullamcorper lorem et sollicitudin tempor. Aliquam vitae nunc ut lectus hendrerit consequat vel nec enim.
+          I am a goal-oriented <strong>Full-Stack Web Developer</strong> and <strong>Full-Stack Mobile Developer</strong> with a strong commitment to collaboration, solutions-oriented problem-solving, and test-driven development. Takes strong pride in delivering quality work and a willingness to assist a team member with their tasks/duties, when necessary. Emphasis on scalable, maintainable, and testable code.
         </p>
         <p>
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque condimentum magna quis accumsan viverra. Nullam convallis dolor id convallis tempor. Vestibulum eu ante fringilla, ultricies sem varius, lacinia purus. Praesent sollicitudin leo in libero maximus, at varius lacus pretium. Sed fringilla iaculis egestas. Praesent consectetur sit amet felis sit amet scelerisque. Etiam at tincidunt lorem. Nulla tincidunt urna sit amet quam posuere egestas. In nec ornare lectus. In fermentum volutpat velit. Fusce ullamcorper lorem et sollicitudin tempor. Aliquam vitae nunc ut lectus hendrerit consequat vel nec enim.
+          I've been coding since 2017, I am seeking a challenging, interesting, and exciting position as a Full-Stack Web Developer and Full-Stack Mobile Developer where I can use my skills to write scalable, maintainable, and testable code. As a recent graduate from General Assembly with an associate's degree in Business Administration and experience working as an intern software engineer at the Human Health Project, I am motivated and intent on providing immediate value.
         </p>
 
         <SocialProfiles>
           <SocialProfile items={SocialLinks} />
         </SocialProfiles>
+
       </AboutDetails>
     </AboutWrapper>
   )

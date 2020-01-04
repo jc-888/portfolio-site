@@ -63,7 +63,7 @@ const Intro: React.FunctionComponent<IntroProps> = props => {
         <Image fluid={AuthorImage} alt="author" />
       </IntroImage>
       <IntroTitle>
-        Hey! I’m <b>{author}</b>
+        <b>{author}</b>
       </IntroTitle>
       <Desciption>{about}</Desciption>
       <SocialProfile items={SocialLinks} />

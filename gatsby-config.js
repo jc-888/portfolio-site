@@ -6,7 +6,7 @@ module.exports = {
   siteMetadata: {
     title: `My Personal Portfolio and Blog`,
     author: `Jacon Condes`,
-    about: `Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque condimentum magna quis accumsan viverra. Nullam convallis dolor id convallis tempor.`,
+    about: `My friends and colleagues call me Jake. I’m a Full-Stack Web & Mobile Developer from the Greater Los Angeles Area.`,
     description: `Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque condimentum magna quis accumsan viverra. Nullam convallis dolor id convallis tempor. Vestibulum eu ante fringilla, ultricies sem varius, lacinia purus. Praesent sollicitudin leo in libero maximus, at varius lacus pretium. Sed fringilla iaculis egestas. Praesent consectetur sit amet felis sit amet scelerisque. Etiam at tincidunt lorem. Nulla tincidunt urna sit amet quam posuere egestas. In nec ornare lectus. In fermentum volutpat velit. Fusce ullamcorper lorem et sollicitudin tempor. Aliquam vitae nunc ut lectus hendrerit consequat vel nec enim.`,
     siteUrl: `https://google.com`,
   },
