@@ -4,7 +4,7 @@ import { themeGet } from "styled-system"
 export const ContactWrapper = styled.div`
   width: 870px;
   margin: 0 auto;
-  padding-top: 120px;
+  padding-top: 25px;
   max-width: 100%;
   @media (max-width: 990px) {
     padding: 80px 45px 30px 45px;
@@ -15,7 +15,7 @@ export const ContactWrapper = styled.div`
 `
 
 export const ContactPageTitle = styled.div`
-  margin-bottom: 90px;
+  margin-bottom: 30px;
   @media (max-width: 990px) {
     margin-bottom: 60px;
   }
@@ -50,6 +50,10 @@ export const InputGroup = styled.div`
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
+
+  @media (max-width: 575px) {
+    flex-direction: column;
+  }
 
   .field-wrapper {
     flex-grow: 1;

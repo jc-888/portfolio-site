@@ -9,7 +9,7 @@ var plugins = [{
       options: {"plugins":[]},
     },{
       plugin: require('/Users/jaconcondes/Desktop/portfolio-site/node_modules/gatsby-plugin-manifest/gatsby-ssr'),
-      options: {"plugins":[],"name":"Personal Portfolio and Blog","short_name":"Jacon J Condes","start_url":"/","background_color":"#ffffff","theme_color":"#663399","icon":"content/assets/favicon.png"},
+      options: {"plugins":[],"name":"Personal Portfolio and Blog","short_name":"Jacon J Condes","start_url":"/","background_color":"#ffffff","theme_color":"#1D95D1","display":"minimal-ui","icon":"content/assets/favicon.png"},
     },{
       plugin: require('/Users/jaconcondes/Desktop/portfolio-site/node_modules/gatsby-plugin-react-helmet/gatsby-ssr'),
       options: {"plugins":[]},
