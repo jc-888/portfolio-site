@@ -20,7 +20,7 @@ export const PortfolioPageTitle = styled.div`
   h1 {
     display: flex;
     justify-content: center;
-    font-size: 30px;
+    font-size: 48px;
     font-weight: 700;
     color: ${themeGet("colors.textColor", "#292929")};
     line-height: 1.53;
@@ -35,22 +35,26 @@ export const PortfolioPageTitle = styled.div`
   }
 `
 
+export const PortfolioContent = styled.div`
+  margin: 10px 0px 30px 0px;
+`
+
 export const PortfolioDetails = styled.div`
   width: 870px;
   max-width: 100%;
   margin: 0 auto;
 
   h2 {
-    font-size: 21px;
+    font-size: 30px;
     font-weight: 500;
     color: ${themeGet("colors.textColor", "#292929")};
-    margin-bottom: 40px;
+    margin-bottom: 15px;
     @media (max-width: 990px) {
-      margin-bottom: 30px;
+      margin-bottom: 10px;
     }
     @media (max-width: 767px) {
       font-size: 18px;
-      margin-bottom: 25px;
+      margin-bottom: 10px;
     }
   }
 `
