@@ -51,13 +51,8 @@ export const InputGroup = styled.div`
   flex-wrap: wrap;
   justify-content: space-between;
 
-  @media (max-width: 575px) {
-    flex-direction: column;
-  }
-
   .field-wrapper {
     flex-grow: 1;
-    max-width: calc(50% - 30px);
     margin-bottom: 60px;
     @media (max-width: 575px) {
       max-width: 100%;

@@ -12,32 +12,25 @@ import {
 } from "./style"
 
 interface MyFormValues {
-  firstName: string
-  email: string
+  subject: string
   message: string
 }
 
 const SignupSchema = Yup.object().shape({
-  firstName: Yup.string().required("Required"),
-  email: Yup.string()
-    .email("Invalid email")
-    .required("Required"),
+  subject: Yup.string().required("Required"),
   message: Yup.string().required("Required"),
 })
 
 const ContactPage: React.SFC<{}> = () => {
   return (
     <Formik
-      initialValues={{ firstName: "", email: "", message: "" }}
+      initialValues={{ subject: "", message: "" }}
       onSubmit={(
         values: MyFormValues,
         actions: FormikActions<MyFormValues>
       ) => {
-        setTimeout(() => {
-          console.log({ values, actions })
-          alert(JSON.stringify(values, null, 2))
-          actions.setSubmitting(false)
-        }, 700)
+        window.location.href = `mailto:jaconjcondes@gmail.com?subject=${values.subject}&body=${values.message.replace(/\n/g, '%0D%0A')}`;
+        actions.setSubmitting(false);
       }}
       validationSchema={SignupSchema}
       render={({
@@ -53,34 +46,20 @@ const ContactPage: React.SFC<{}> = () => {
             <ContactWrapper>
               <ContactPageTitle>
                 <h2>Contact</h2>
-                {/* <p>
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque condimentum magna quis accumsan viverra. Nullam convallis dolor id convallis tempor. Vestibulum eu ante fringilla, ultricies sem varius, lacinia purus. Praesent sollicitudin leo in libero maximus, at varius lacus pretium. Sed fringilla iaculis egestas. Praesent consectetur sit amet felis sit amet scelerisque. Etiam at tincidunt lorem. Nulla tincidunt urna sit amet quam posuere egestas. In nec ornare lectus. In fermentum volutpat velit. Fusce ullamcorper lorem et sollicitudin tempor. Aliquam vitae nunc ut lectus hendrerit consequat vel nec enim.
-                </p> */}
               </ContactPageTitle>
               <ContactFromWrapper>
                 <InputGroup>
                   <Input
                     type="text"
-                    name="firstName"
-                    value={`${values.firstName}`}
+                    name="subject"
+                    value={`${values.subject}`}
                     onChange={handleChange}
                     onBlur={handleBlur}
-                    label="Name"
+                    label="Subject"
                     notification={`${
-                      errors.firstName && touched.firstName
-                        ? errors.firstName
+                      errors.subject && touched.subject
+                        ? errors.subject
                         : ""
-                    }`}
-                  />
-                  <Input
-                    type="email"
-                    name="email"
-                    value={`${values.email}`}
-                    onChange={handleChange}
-                    onBlur={handleBlur}
-                    label="Email"
-                    notification={`${
-                      errors.email && touched.email ? errors.email : ""
                     }`}
                   />
                 </InputGroup>
