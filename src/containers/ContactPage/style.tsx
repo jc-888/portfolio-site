@@ -53,7 +53,7 @@ export const InputGroup = styled.div`
 
   .field-wrapper {
     flex-grow: 1;
-    margin-bottom: 60px;
+    margin-bottom: 30px;
     @media (max-width: 575px) {
       max-width: 100%;
       margin-bottom: 40px;
