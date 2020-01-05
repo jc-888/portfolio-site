@@ -1,35 +1,37 @@
-import * as React from "react"
-import { Formik, FormikActions, FormikProps, Form } from "formik"
-import * as Yup from "yup"
-import Input from "../../components/Input/Input"
-import Button from "../../components/Button/Button"
+import * as React from 'react';
+import {Formik, FormikActions, FormikProps, Form} from 'formik';
+import * as Yup from 'yup';
+import Input from '../../components/Input/Input';
+import Button from '../../components/Button/Button';
 
 import {
   ContactWrapper,
   ContactPageTitle,
   ContactFromWrapper,
   InputGroup,
-} from "./style"
+} from './style';
 
 interface MyFormValues {
-  subject: string
-  message: string
+  subject: string;
+  message: string;
 }
 
 const SignupSchema = Yup.object().shape({
-  subject: Yup.string().required("Required"),
-  message: Yup.string().required("Required"),
-})
+  subject: Yup.string().required('Required'),
+  message: Yup.string().required('Required'),
+});
 
 const ContactPage: React.SFC<{}> = () => {
   return (
     <Formik
-      initialValues={{ subject: "", message: "" }}
+      initialValues={{subject: '', message: ''}}
       onSubmit={(
         values: MyFormValues,
-        actions: FormikActions<MyFormValues>
+        actions: FormikActions<MyFormValues>,
       ) => {
-        window.location.href = `mailto:jaconjcondes@gmail.com?subject=${values.subject}&body=${values.message.replace(/\n/g, '%0D%0A')}`;
+        window.location.href = `mailto:jaconjcondes@gmail.com?subject=${
+          values.subject
+        }&body=${values.message.replace(/\n/g, '%0D%0A')}`;
         actions.setSubmitting(false);
       }}
       validationSchema={SignupSchema}
@@ -57,9 +59,7 @@ const ContactPage: React.SFC<{}> = () => {
                     onBlur={handleBlur}
                     label="Subject"
                     notification={`${
-                      errors.subject && touched.subject
-                        ? errors.subject
-                        : ""
+                      errors.subject && touched.subject ? errors.subject : ''
                     }`}
                   />
                 </InputGroup>
@@ -71,7 +71,7 @@ const ContactPage: React.SFC<{}> = () => {
                   onBlur={handleBlur}
                   label="Message"
                   notification={
-                    errors.message && touched.message ? errors.message : ""
+                    errors.message && touched.message ? errors.message : ''
                   }
                 />
                 <Button
@@ -86,7 +86,7 @@ const ContactPage: React.SFC<{}> = () => {
         </>
       )}
     />
-  )
-}
+  );
+};
 
-export default ContactPage
+export default ContactPage;

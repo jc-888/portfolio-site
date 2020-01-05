@@ -1,5 +1,5 @@
-import styled from "styled-components"
-import { themeGet } from "styled-system"
+import styled from 'styled-components';
+import {themeGet} from 'styled-system';
 
 export const ContactWrapper = styled.div`
   width: 870px;
@@ -12,7 +12,7 @@ export const ContactWrapper = styled.div`
   @media (max-width: 575px) {
     padding: 60px 25px 0 25px;
   }
-`
+`;
 
 export const ContactPageTitle = styled.div`
   margin-bottom: 30px;
@@ -22,7 +22,7 @@ export const ContactPageTitle = styled.div`
   h2 {
     font-size: 30px;
     font-weight: 700;
-    color: ${themeGet("colors.textColor", "#292929")};
+    color: ${themeGet('colors.textColor', '#292929')};
     line-height: 1.53;
     margin-bottom: 15px;
     @media (max-width: 990px) {
@@ -34,7 +34,7 @@ export const ContactPageTitle = styled.div`
       margin-bottom: 10px;
     }
   }
-`
+`;
 
 export const ContactFromWrapper = styled.div`
   position: relative;
@@ -44,7 +44,7 @@ export const ContactFromWrapper = styled.div`
       margin-top: 40px;
     }
   }
-`
+`;
 
 export const InputGroup = styled.div`
   display: flex;
@@ -59,4 +59,4 @@ export const InputGroup = styled.div`
       margin-bottom: 40px;
     }
   }
-`
+`;

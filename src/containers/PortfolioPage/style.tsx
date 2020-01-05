@@ -1,5 +1,5 @@
-import styled from "styled-components"
-import { themeGet } from "styled-system"
+import styled from 'styled-components';
+import {themeGet} from 'styled-system';
 
 export const PortfolioWrapper = styled.div`
   position: relative;
@@ -10,7 +10,7 @@ export const PortfolioWrapper = styled.div`
   @media (max-width: 575px) {
     padding: 60px 25px 0 25px;
   }
-`
+`;
 
 export const PortfolioPageTitle = styled.div`
   margin-bottom: 45px;
@@ -22,7 +22,7 @@ export const PortfolioPageTitle = styled.div`
     justify-content: center;
     font-size: 48px;
     font-weight: 700;
-    color: ${themeGet("colors.textColor", "#292929")};
+    color: ${themeGet('colors.textColor', '#292929')};
     line-height: 1.53;
     margin-bottom: 10px;
     @media (max-width: 990px) {
@@ -33,11 +33,11 @@ export const PortfolioPageTitle = styled.div`
       margin-bottom: 10px;
     }
   }
-`
+`;
 
 export const PortfolioContent = styled.div`
   margin: 10px 0px 30px 0px;
-`
+`;
 
 export const PortfolioDetails = styled.div`
   width: 870px;
@@ -47,7 +47,7 @@ export const PortfolioDetails = styled.div`
   h2 {
     font-size: 30px;
     font-weight: 500;
-    color: ${themeGet("colors.textColor", "#292929")};
+    color: ${themeGet('colors.textColor', '#292929')};
     margin-bottom: 15px;
     @media (max-width: 990px) {
       margin-bottom: 10px;
@@ -57,7 +57,7 @@ export const PortfolioDetails = styled.div`
       margin-bottom: 10px;
     }
   }
-`
+`;
 export const SocialProfiles = styled.div`
   margin-top: 60px;
   position: relative;
@@ -66,7 +66,7 @@ export const SocialProfiles = styled.div`
   }
 
   &:before {
-    content: "";
+    content: '';
     width: 30px;
     height: 1px;
     background: #292929;
@@ -76,4 +76,4 @@ export const SocialProfiles = styled.div`
       margin-bottom: 40px;
     }
   }
-`
+`;

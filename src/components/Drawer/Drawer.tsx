@@ -1,4 +1,4 @@
-import React, { Fragment } from 'react';
+import React, {Fragment} from 'react';
 import RcDrawer from 'rc-drawer';
 import 'rc-drawer/assets/index.css';
 
@@ -45,14 +45,12 @@ const Drawer: React.FunctionComponent<DrawerProps> = ({
         handler={false}
         level={null}
         duration=".4s"
-        {...props}
-      >
+        {...props}>
         {closeButton && (
           <div
             className="drawer__close"
             onClick={toggleHandler}
-            style={closeButtonStyle}
-          >
+            style={closeButtonStyle}>
             {closeButton}
           </div>
         )}
@@ -61,9 +59,8 @@ const Drawer: React.FunctionComponent<DrawerProps> = ({
       </RcDrawer>
       <div
         className="drawer__handler"
-        style={{ display: 'inline-block' }}
-        onClick={toggleHandler}
-      >
+        style={{display: 'inline-block'}}
+        onClick={toggleHandler}>
         {drawerHandler}
       </div>
     </Fragment>

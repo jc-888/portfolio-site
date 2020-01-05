@@ -1,10 +1,10 @@
-import * as React from "react"
-import { useStaticQuery, graphql } from "gatsby"
-import PostCard from "../../../components/PostCard/postCard"
-import Pagination from "../../../components/Pagination/pagination"
-import BlogPostsWrapper from "./style"
+import * as React from 'react';
+import {useStaticQuery, graphql} from 'gatsby';
+import PostCard from '../../../components/PostCard/postCard';
+import Pagination from '../../../components/Pagination/pagination';
+import BlogPostsWrapper from './style';
 
-type PostsProps = {}
+type PostsProps = {};
 
 const Posts: React.FunctionComponent<PostsProps> = props => {
   const Data = useStaticQuery(graphql`
@@ -14,7 +14,7 @@ const Posts: React.FunctionComponent<PostsProps> = props => {
           title
         }
       }
-      allSitePage(filter: { path: { eq: "/page/1" } }) {
+      allSitePage(filter: {path: {eq: "/page/1"}}) {
         nodes {
           context {
             numPages
@@ -23,7 +23,7 @@ const Posts: React.FunctionComponent<PostsProps> = props => {
         }
       }
       allMarkdownRemark(
-        sort: { fields: [frontmatter___date], order: DESC }
+        sort: {fields: [frontmatter___date], order: DESC}
         limit: 3
       ) {
         totalCount
@@ -50,16 +50,16 @@ const Posts: React.FunctionComponent<PostsProps> = props => {
         }
       }
     }
-  `)
+  `);
 
-  const Posts = Data.allMarkdownRemark.edges
-  const TotalPage = Data.allSitePage.nodes[0].context.numPages
-  const CurrentPage = Data.allSitePage.nodes[0].context.currentPage
+  const Posts = Data.allMarkdownRemark.edges;
+  const TotalPage = Data.allSitePage.nodes[0].context.numPages;
+  const CurrentPage = Data.allSitePage.nodes[0].context.currentPage;
 
   return (
     <BlogPostsWrapper>
-      {Posts.map(({ node }: any) => {
-        const title = node.frontmatter.title || node.fields.slug
+      {Posts.map(({node}: any) => {
+        const title = node.frontmatter.title || node.fields.slug;
         return (
           <PostCard
             key={node.fields.slug}
@@ -74,7 +74,7 @@ const Posts: React.FunctionComponent<PostsProps> = props => {
             date={node.frontmatter.date}
             tags={node.frontmatter.tags}
           />
-        )
+        );
       })}
 
       {TotalPage >> 1 ? (
@@ -84,10 +84,10 @@ const Posts: React.FunctionComponent<PostsProps> = props => {
           totalPage={TotalPage}
         />
       ) : (
-        ""
+        ''
       )}
     </BlogPostsWrapper>
-  )
-}
+  );
+};
 
-export default Posts
+export default Posts;

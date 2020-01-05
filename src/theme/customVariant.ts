@@ -1,4 +1,4 @@
-import { variant } from 'styled-system';
+import {variant} from 'styled-system';
 
 const buttonStyle = variant({
   key: 'buttonStyles',
@@ -14,4 +14,4 @@ const buttonSize = variant({
   prop: 'size',
 });
 
-export { buttonStyle, colorStyle, buttonSize };
+export {buttonStyle, colorStyle, buttonSize};

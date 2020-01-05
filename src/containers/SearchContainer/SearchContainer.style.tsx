@@ -1,5 +1,5 @@
-import styled from "styled-components"
-import { themeGet } from "styled-system"
+import styled from 'styled-components';
+import {themeGet} from 'styled-system';
 
 export const SearchWrapper = styled.div`
   display: block;
@@ -8,7 +8,7 @@ export const SearchWrapper = styled.div`
   display: flex;
   align-items: center;
   position: relative;
-`
+`;
 
 export const SearchForm = styled.form`
   width: calc(100% - 60px);
@@ -16,7 +16,7 @@ export const SearchForm = styled.form`
     width: 100%;
     font-size: 21px;
     font-weight: normal;
-    color: ${themeGet("colors.textColor", "#292929")};
+    color: ${themeGet('colors.textColor', '#292929')};
     border: 0;
     background: transparent;
     &:focus {
@@ -29,7 +29,7 @@ export const SearchForm = styled.form`
       font-size: 15px;
     }
   }
-`
+`;
 
 export const SearchResult = styled.div`
   position: absolute;
@@ -57,12 +57,12 @@ export const SearchResult = styled.div`
       }
     }
   }
-`
+`;
 
 export const SearchResultContainer = styled.div`
   max-height: 405px;
   overflow-x: hidden;
-`
+`;
 
 export const NoResult = styled.div`
   padding: 30px;
@@ -77,4 +77,4 @@ export const NoResult = styled.div`
     font-size: 18px;
     padding: 20px;
   }
-`
+`;

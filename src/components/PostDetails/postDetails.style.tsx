@@ -1,5 +1,5 @@
 import styled from 'styled-components';
-import { themeGet } from 'styled-system';
+import {themeGet} from 'styled-system';
 
 export const PostDetailsWrapper = styled.div`
   position: relative;

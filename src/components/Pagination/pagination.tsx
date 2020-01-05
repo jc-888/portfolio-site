@@ -1,6 +1,6 @@
 import * as React from 'react';
-import { Link } from 'gatsby';
-import { IoMdArrowRoundBack, IoMdArrowRoundForward } from 'react-icons/io';
+import {Link} from 'gatsby';
+import {IoMdArrowRoundBack, IoMdArrowRoundForward} from 'react-icons/io';
 import {
   PaginationWrapper,
   PrevPage,

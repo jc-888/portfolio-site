@@ -64,8 +64,7 @@ const Button: React.FC<ButtonProps> = ({
         height="20"
         viewBox="0 0 100 100"
         className="loading-icon"
-        style={{ marginLeft: 5 }}
-      >
+        style={{marginLeft: 5}}>
         <circle
           cx="50"
           cy="50"
@@ -78,8 +77,7 @@ const Button: React.FC<ButtonProps> = ({
           strokeWidth="10"
           r="35"
           strokeDasharray="164.93361431346415 56.97787143782138"
-          transform="rotate(196.993 50 50)"
-        >
+          transform="rotate(196.993 50 50)">
           <animateTransform
             attributeName="transform"
             type="rotate"
@@ -104,8 +102,7 @@ const Button: React.FC<ButtonProps> = ({
       onClick={onClick}
       fullwidth={fullwidth}
       style={style}
-      {...props}
-    >
+      {...props}>
       {position === 'left' && buttonIcon}
       {title && !isLoading && <span className="btn-text">{title}</span>}
       {position === 'right' && buttonIcon}

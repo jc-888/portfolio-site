@@ -1,5 +1,5 @@
-import styled from "styled-components"
-import { themeGet } from "styled-system"
+import styled from 'styled-components';
+import {themeGet} from 'styled-system';
 
 export const NotFoundWrapper = styled.div`
   position: relative;
@@ -23,7 +23,7 @@ export const NotFoundWrapper = styled.div`
   @media (max-width: 575px) {
     padding: 60px 25px 0 25px;
   }
-`
+`;
 
 export const NotFoundContent = styled.div`
   flex: 0 0 35%;
@@ -52,7 +52,7 @@ export const NotFoundContent = styled.div`
       font-size: 22px;
     }
   }
-`
+`;
 
 export const NotFoundImage = styled.div`
   flex: 0 0 65%;
@@ -71,7 +71,7 @@ export const NotFoundImage = styled.div`
     max-width: 100%;
     margin-bottom: 50px;
   }
-`
+`;
 
 export const Icon = styled.div`
   width: 30px;
@@ -85,7 +85,7 @@ export const Icon = styled.div`
   font-size: 16px;
   margin-right: 15px;
   transition: 0.15s ease-in-out;
-`
+`;
 
 export const Goback = styled.div`
   margin-top: 60px;
@@ -100,13 +100,13 @@ export const Goback = styled.div`
     align-items: center;
     font-size: 15px;
     font-weight: 500;
-    color: ${themeGet("colors.textColor", "#292929")};
+    color: ${themeGet('colors.textColor', '#292929')};
     transition: 0.15s ease-in-out;
     &:hover {
-      color: ${themeGet("colors.primary", "#1D95D1")};
+      color: ${themeGet('colors.primary', '#1D95D1')};
       ${Icon} {
-        background-color: ${themeGet("colors.primary", "#1D95D1")};
+        background-color: ${themeGet('colors.primary', '#1D95D1')};
       }
     }
   }
-`
+`;

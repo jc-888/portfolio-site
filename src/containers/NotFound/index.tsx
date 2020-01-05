@@ -1,21 +1,21 @@
-import * as React from "react"
-import Image from "gatsby-image"
-import { useStaticQuery, graphql, Link } from "gatsby"
-import { IoMdArrowRoundBack } from "react-icons/io"
+import * as React from 'react';
+import Image from 'gatsby-image';
+import {useStaticQuery, graphql, Link} from 'gatsby';
+import {IoMdArrowRoundBack} from 'react-icons/io';
 import {
   NotFoundWrapper,
   NotFoundContent,
   NotFoundImage,
   Goback,
   Icon,
-} from "./style"
+} from './style';
 
 interface NotFoundProps {}
 
 const NotFound: React.FunctionComponent<NotFoundProps> = props => {
   const Data = useStaticQuery(graphql`
     query {
-      avatar: file(absolutePath: { regex: "/404.png/" }) {
+      avatar: file(absolutePath: {regex: "/404.png/"}) {
         childImageSharp {
           fluid(maxWidth: 750, quality: 100) {
             ...GatsbyImageSharpFluid
@@ -29,7 +29,7 @@ const NotFound: React.FunctionComponent<NotFoundProps> = props => {
         }
       }
     }
-  `)
+  `);
 
   return (
     <NotFoundWrapper>
@@ -52,7 +52,7 @@ const NotFound: React.FunctionComponent<NotFoundProps> = props => {
         <Image fluid={Data.avatar.childImageSharp.fluid} alt="author" />
       </NotFoundImage>
     </NotFoundWrapper>
-  )
-}
+  );
+};
 
-export default NotFound
+export default NotFound;

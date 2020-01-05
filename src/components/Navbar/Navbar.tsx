@@ -1,10 +1,10 @@
-import React, { useState } from "react"
-import { Link } from "gatsby"
-import { IoIosSearch, IoIosClose } from "react-icons/io"
-import { DrawerProvider } from "../Drawer/DrawerContext"
-import Menu from "./Menu"
-import MobileMenu from "./MobileMenu"
-import SearchContainer from "../../containers/SearchContainer/SearchContainer"
+import React, {useState} from 'react';
+import {Link} from 'gatsby';
+import {IoIosSearch, IoIosClose} from 'react-icons/io';
+import {DrawerProvider} from '../Drawer/DrawerContext';
+import Menu from './Menu';
+import MobileMenu from './MobileMenu';
+import SearchContainer from '../../containers/SearchContainer/SearchContainer';
 import HeaderWrapper, {
   NavbarWrapper,
   Logo,
@@ -13,35 +13,27 @@ import HeaderWrapper, {
   NavSearchWrapper,
   SearchCloseButton,
   NavSearchFromWrapper,
-} from "./Navbar.style"
-import LogoImage from "../../images/logo.png"
+} from './Navbar.style';
+import LogoImage from '../../images/logo.png';
 
 type NavbarProps = {
-  className?: string
-}
+  className?: string;
+};
 
 const MenuItems = [
-  // {
-  //   label: "Home",
-  //   url: "/",
-  // },
   {
-    label: "Portfolio",
-    url: "/portfolio",
+    label: 'Portfolio',
+    url: '/portfolio',
   },
   {
-    label: "About",
-    url: "/about",
+    label: 'About',
+    url: '/about',
   },
   {
-    label: "Contact",
-    url: "/contact",
+    label: 'Contact',
+    url: '/contact',
   },
-  // {
-  //   label: "404 Page",
-  //   url: "/404",
-  // },
-]
+];
 
 const Navbar: React.FunctionComponent<NavbarProps> = ({
   className,
@@ -49,26 +41,26 @@ const Navbar: React.FunctionComponent<NavbarProps> = ({
 }) => {
   const [state, setState] = useState({
     toggle: false,
-    search: "",
-  })
+    search: '',
+  });
 
   const toggleHandle = () => {
     setState({
       ...state,
       toggle: !state.toggle,
-    })
-  }
+    });
+  };
 
   // Add all classs to an array
-  const addAllClasses = ["header"]
+  const addAllClasses = ['header'];
 
   // className prop checking
   if (className) {
-    addAllClasses.push(className)
+    addAllClasses.push(className);
   }
 
   return (
-    <HeaderWrapper className={addAllClasses.join(" ")} {...props}>
+    <HeaderWrapper className={addAllClasses.join(' ')} {...props}>
       <NavbarWrapper className="navbar">
         <DrawerProvider>
           <MobileMenu items={MenuItems} logo={LogoImage} />
@@ -84,26 +76,24 @@ const Navbar: React.FunctionComponent<NavbarProps> = ({
         <NavSearchButton
           type="button"
           aria-label="search"
-          onClick={toggleHandle}
-        >
+          onClick={toggleHandle}>
           <IoIosSearch size="23px" />
         </NavSearchButton>
       </NavbarWrapper>
 
-      <NavSearchWrapper className={state.toggle === true ? "expand" : ""}>
+      <NavSearchWrapper className={state.toggle === true ? 'expand' : ''}>
         <NavSearchFromWrapper>
           <SearchContainer />
           <SearchCloseButton
             type="submit"
             aria-label="close"
-            onClick={toggleHandle}
-          >
+            onClick={toggleHandle}>
             <IoIosClose />
           </SearchCloseButton>
         </NavSearchFromWrapper>
       </NavSearchWrapper>
     </HeaderWrapper>
-  )
-}
+  );
+};
 
-export default Navbar
+export default Navbar;

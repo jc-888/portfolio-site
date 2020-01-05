@@ -1,10 +1,10 @@
-import React from "react"
-import { graphql } from "gatsby"
-import Navbar from "../components/Navbar/Navbar"
-import ResetCss from "../components/resetCSS"
-import SEO from "../components/seo"
-import NotFound from "../containers/NotFound"
-import Footer from "../components/Footer/Footer"
+import React from 'react';
+import {graphql} from 'gatsby';
+import Navbar from '../components/Navbar/Navbar';
+import ResetCss from '../components/resetCSS';
+import SEO from '../components/seo';
+import NotFound from '../containers/NotFound';
+import Footer from '../components/Footer/Footer';
 
 const NotFoundPage = (props: any) => {
   return (
@@ -18,10 +18,10 @@ const NotFoundPage = (props: any) => {
         <a href="/"> Jacon J Condes</a>
       </Footer>
     </>
-  )
-}
+  );
+};
 
-export default NotFoundPage
+export default NotFoundPage;
 
 export const pageQuery = graphql`
   query {
@@ -31,4 +31,4 @@ export const pageQuery = graphql`
       }
     }
   }
-`
+`;

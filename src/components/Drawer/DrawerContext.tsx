@@ -1,4 +1,4 @@
-import React, { useReducer } from 'react';
+import React, {useReducer} from 'react';
 
 const initialState = {
   isOpen: false,
@@ -26,7 +26,7 @@ export const DrawerProvider: React.FunctionComponent<DrawerProviderProps> = ({
 }) => {
   const [state, dispatch] = useReducer(reducer, initialState);
   return (
-    <DrawerContext.Provider value={{ state, dispatch }}>
+    <DrawerContext.Provider value={{state, dispatch}}>
       {children}
     </DrawerContext.Provider>
   );

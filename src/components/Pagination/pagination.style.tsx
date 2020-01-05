@@ -1,5 +1,5 @@
 import styled from 'styled-components';
-import { themeGet } from 'styled-system';
+import {themeGet} from 'styled-system';
 
 export const PaginationWrapper = styled.div`
   display: flex;

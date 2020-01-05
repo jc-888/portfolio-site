@@ -1,5 +1,5 @@
 import styled from 'styled-components';
-import { themeGet } from 'styled-system';
+import {themeGet} from 'styled-system';
 
 const InputWrapper = styled.div`
   position: relative;

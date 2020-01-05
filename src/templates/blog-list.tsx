@@ -1,29 +1,29 @@
-import * as React from "react"
-import { graphql } from "gatsby"
-import PostCard from "../components/PostCard/postCard"
-import Pagination from "../components/Pagination/pagination"
-import Layout from "../components/layout"
-import SEO from "../components/seo"
-import { BlogPostsWrapper } from "./templates.style"
+import * as React from 'react';
+import {graphql} from 'gatsby';
+import PostCard from '../components/PostCard/postCard';
+import Pagination from '../components/Pagination/pagination';
+import Layout from '../components/layout';
+import SEO from '../components/seo';
+import {BlogPostsWrapper} from './templates.style';
 
 const BlogList = (props: any) => {
-  const { data } = props
-  const Posts = data.allMarkdownRemark.edges
-  const { currentPage, numPages } = props.pageContext
-  const isFirst = currentPage === 1
-  const isLast = currentPage === numPages
+  const {data} = props;
+  const Posts = data.allMarkdownRemark.edges;
+  const {currentPage, numPages} = props.pageContext;
+  const isFirst = currentPage === 1;
+  const isLast = currentPage === numPages;
   const prevPage =
-    currentPage - 1 === 1 ? "/page/1" : `/page/${(currentPage - 1).toString()}`
-  const nextPage = `/page/${(currentPage + 1).toString()}`
-  const PrevLink = !isFirst && prevPage
-  const NextLink = !isLast && nextPage
+    currentPage - 1 === 1 ? '/page/1' : `/page/${(currentPage - 1).toString()}`;
+  const nextPage = `/page/${(currentPage + 1).toString()}`;
+  const PrevLink = !isFirst && prevPage;
+  const NextLink = !isLast && nextPage;
 
   return (
     <Layout>
       <SEO title={`Page ${currentPage}`} />
 
       <BlogPostsWrapper>
-        {Posts.map(({ node }: any) => {
+        {Posts.map(({node}: any) => {
           return (
             <PostCard
               key={node.fields.slug}
@@ -38,7 +38,7 @@ const BlogList = (props: any) => {
               date={node.frontmatter.date}
               tags={node.frontmatter.tags}
             />
-          )
+          );
         })}
 
         <Pagination
@@ -49,10 +49,10 @@ const BlogList = (props: any) => {
         />
       </BlogPostsWrapper>
     </Layout>
-  )
-}
+  );
+};
 
-export default BlogList
+export default BlogList;
 
 export const pageQuery = graphql`
   query($skip: Int!, $limit: Int!) {
@@ -65,7 +65,7 @@ export const pageQuery = graphql`
       path
     }
     allMarkdownRemark(
-      sort: { fields: [frontmatter___date], order: DESC }
+      sort: {fields: [frontmatter___date], order: DESC}
       limit: $limit
       skip: $skip
     ) {
@@ -92,4 +92,4 @@ export const pageQuery = graphql`
       }
     }
   }
-`
+`;

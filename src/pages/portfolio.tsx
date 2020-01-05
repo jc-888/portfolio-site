@@ -1,11 +1,13 @@
-import React from "react"
-import Layout from "../components/layout"
-import SEO from "../components/seo"
-import Portfolio from "../containers/PortfolioPage"
+import React from 'react';
+import Layout from '../components/layout';
+import SEO from '../components/seo';
+import Portfolio from '../containers/PortfolioPage';
 
-type PortfolioPageProps = {}
+type PortfolioPageProps = {};
 
-const PortfolioPage: React.FunctionComponent<PortfolioPageProps> = (props: any) => {
+const PortfolioPage: React.FunctionComponent<PortfolioPageProps> = (
+  props: any,
+) => {
   return (
     <Layout>
       <SEO
@@ -14,7 +16,7 @@ const PortfolioPage: React.FunctionComponent<PortfolioPageProps> = (props: any) 
       />
       <Portfolio />
     </Layout>
-  )
-}
+  );
+};
 
-export default PortfolioPage
+export default PortfolioPage;

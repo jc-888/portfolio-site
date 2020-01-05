@@ -116,8 +116,7 @@ const Input: React.FC<InputProps> = ({
   return (
     <InputWrapper
       className={`${addAllClasses.join(' ')}`}
-      style={containerStyle}
-    >
+      style={containerStyle}>
       {labelField || secondaryComponent ? (
         <div>
           {labelField} {secondaryComponent}

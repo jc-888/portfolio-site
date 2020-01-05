@@ -1,5 +1,5 @@
-import styled from "styled-components"
-import { themeGet } from "styled-system"
+import styled from 'styled-components';
+import {themeGet} from 'styled-system';
 
 export const BlogPostsWrapper = styled.div`
   margin: 0 auto;
@@ -31,7 +31,7 @@ export const BlogPostsWrapper = styled.div`
       margin-bottom: 60px;
     }
   }
-`
+`;
 
 export const RelatedPostWrapper = styled.div`
   margin: 0 auto;
@@ -50,32 +50,32 @@ export const RelatedPostWrapper = styled.div`
   @media (max-width: 575px) {
     padding: 60px 25px 0 25px;
   }
-`
+`;
 
 export const RelatedPostTitle = styled.h2`
-  color: ${themeGet("colors.textColor", "#292929")};
+  color: ${themeGet('colors.textColor', '#292929')};
   font-size: 16px;
   font-weight: 500;
-  font-family: ${themeGet("fontFamily.0", "'Fira Sans',sans-serif")};
+  font-family: ${themeGet('fontFamily.0', "'Fira Sans',sans-serif")};
   letter-spacing: 0.17em;
   position: relative;
   margin-bottom: 30px;
 
   &:after {
-    content: "";
+    content: '';
     width: 68px;
     height: 1px;
     background: #292929;
     display: block;
     margin-top: 8px;
   }
-`
+`;
 
 export const RelatedPostItems = styled.div`
   display: flex;
   flex-wrap: wrap;
   margin: 0 -15px;
-`
+`;
 
 export const RelatedPostItem = styled.div`
   flex: 0 0 33.333333333%;
@@ -142,7 +142,7 @@ export const RelatedPostItem = styled.div`
       }
     }
   }
-`
+`;
 export const TagPostsWrapper = styled.div`
   margin: 0 auto;
   padding-top: 120px;
@@ -175,7 +175,7 @@ export const TagPostsWrapper = styled.div`
       margin-bottom: 60px;
     }
   }
-`
+`;
 export const TagPageHeading = styled.div`
   padding-left: 210px;
   font-size: 15px;
@@ -195,19 +195,19 @@ export const TagPageHeading = styled.div`
   }
 
   &:after {
-    content: "";
+    content: '';
     display: block;
     width: 90px;
     height: 1px;
     background: #292929;
     margin-top: 15px;
   }
-`
+`;
 
 export const TagName = styled.h1`
   font-size: 30px;
   font-weight: 700;
-  color: ${themeGet("colors.primary", "#1D95D1")};
+  color: ${themeGet('colors.primary', '#1D95D1')};
   margin-bottom: 8px;
   @media (max-width: 990px) {
     font-size: 26px;
@@ -215,7 +215,7 @@ export const TagName = styled.h1`
   @media (max-width: 575px) {
     font-size: 22px;
   }
-`
+`;
 export const BlogPostFooter = styled.div`
   margin: 0 auto;
   width: 870px;
@@ -227,7 +227,7 @@ export const BlogPostFooter = styled.div`
   @media (max-width: 990px) {
     padding-top: 40px;
   }
-`
+`;
 
 export const PostShare = styled.div`
   display: flex;
@@ -241,20 +241,20 @@ export const PostShare = styled.div`
     margin-left: 25px;
     font-size: 22px;
     outline: 0;
-    color: ${themeGet("colors.textColor", "#292929")};
+    color: ${themeGet('colors.textColor', '#292929')};
     transition: 0.15s ease-in-out;
     @media (max-width: 767px) {
       font-size: 18px;
       margin-left: 20px;
     }
     &:hover {
-      color: ${themeGet("colors.primary", "#1D95D1")};
+      color: ${themeGet('colors.primary', '#1D95D1')};
     }
     svg {
       display: block;
     }
   }
-`
+`;
 export const BlogPostDetailsWrapper = styled.div`
   margin: 0 auto;
   padding: 90px 0 120px 0;
@@ -273,7 +273,7 @@ export const BlogPostDetailsWrapper = styled.div`
   @media (max-width: 575px) {
     padding: 60px 25px 0 25px;
   }
-`
+`;
 export const PostTags = styled.div`
   display: flex;
   flex-wrap: wrap;
@@ -287,10 +287,10 @@ export const PostTags = styled.div`
     margin-right: 30px;
     font-size: 14px;
     font-weight: 400;
-    color: ${themeGet("primary", "#1D95D1")};
+    color: ${themeGet('primary', '#1D95D1')};
     @media (max-width: 990px) {
       font-size: 13px;
       margin-right: 25px;
     }
   }
-`
+`;
