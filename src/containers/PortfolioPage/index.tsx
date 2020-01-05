@@ -1,5 +1,4 @@
 import * as React from "react"
-import SocialProfile from "../../components/SocialProfile/SocialProfile"
 import {
   IoLogoFacebook,
   IoLogoTwitter,
@@ -11,7 +10,6 @@ import {
   PortfolioPageTitle,
   PortfolioContent,
   PortfolioDetails,
-  SocialProfiles,
 } from "./style"
 
 import Project1GIF from './project1/project1.gif'
@@ -405,9 +403,6 @@ const PortfolioPage: React.FunctionComponent<PortfolioProps> = (props: any) => {
           </div>
         </PortfolioContent>
 
-        <SocialProfiles>
-          <SocialProfile items={SocialLinks} />
-        </SocialProfiles>
       </PortfolioDetails>
     </PortfolioWrapper>
   )

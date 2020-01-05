@@ -1,7 +1,6 @@
 import * as React from "react"
 import { useStaticQuery, graphql } from "gatsby"
 import Image from "gatsby-image"
-import SocialProfile from "../../components/SocialProfile/SocialProfile"
 
 import {
   IoLogoFacebook,
@@ -14,7 +13,6 @@ import {
   AboutImage,
   AboutPageTitle,
   AboutDetails,
-  SocialProfiles,
 } from "./style"
 
 const SocialLinks = [
@@ -82,10 +80,6 @@ const AboutPage: React.FunctionComponent<AboutProps> = props => {
         <p>
           I've been coding since 2017, I am seeking a challenging, interesting, and exciting position as a Full-Stack Web Developer and Full-Stack Mobile Developer where I can use my skills to write scalable, maintainable, and testable code. As a recent graduate from General Assembly with an associate's degree in Business Administration and experience working as an intern software engineer at the Human Health Project, I am motivated and intent on providing immediate value.
         </p>
-
-        <SocialProfiles>
-          <SocialProfile items={SocialLinks} />
-        </SocialProfiles>
 
       </AboutDetails>
     </AboutWrapper>
