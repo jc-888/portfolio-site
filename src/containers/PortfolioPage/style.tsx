@@ -4,6 +4,15 @@ import {themeGet} from 'styled-system';
 export const PortfolioWrapper = styled.div`
   position: relative;
   padding: 90px 75px 0 75px;
+
+  p{
+    margin: 0 0 0 0;
+  }
+
+  a {
+    color: #1D95D1
+  }
+
   @media (max-width: 990px) {
     padding: 80px 45px 30px 45px;
   }
@@ -58,6 +67,7 @@ export const PortfolioDetails = styled.div`
     }
   }
 `;
+
 export const SocialProfiles = styled.div`
   margin-top: 60px;
   position: relative;

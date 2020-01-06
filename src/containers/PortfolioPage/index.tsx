@@ -61,6 +61,53 @@ const PortfolioPage: React.FunctionComponent<PortfolioProps> = (props: any) => {
       <PortfolioDetails>
         <PortfolioContent>
           <div>
+            <h2>Share Analytics</h2>
+            <p>
+              ➢ Input a link and returns a tracker link gathers how many times
+              the link has been clicked.
+            </p>
+            <p>
+              ➢ Website: {" "}
+              <a
+                href="https://music.jaconjcondes.com"
+                target="_blank"
+                className="github-link">
+                Music Share
+              </a>
+            </p>
+            <p>
+              ➢ Github Repo:{' '}
+              <a
+                href="https://github.com/jakec888/share-analytics"
+                target="_blank"
+                className="github-link">
+                Share Analytics
+              </a>
+            </p>
+            <p>
+              ➢ Built Using (Express Folder): React JS, Node JS, Express JS,
+              Mongoose, and Mongo DB
+            </p>
+            <p>
+              ➢ Built Using (Flask Folder): React JS, Python, Flask, SQLalchemy,
+              and PostgreSQL
+            </p>
+            <p>➢ Built Using (Rails): React JS, Rails, and MySQL</p>
+            <p>➢ Testing: Jest, Enzyme, and Moxiox</p>
+            <img
+              className="profile-gif-mobile"
+              src={Project7GIF}
+              alt="Project 7a GIF"
+              height="100%"
+              width="100%"
+            />
+          </div>
+        </PortfolioContent>
+      </PortfolioDetails>
+
+      <PortfolioDetails>
+        <PortfolioContent>
+          <div>
             <h2>Music Share</h2>
             <p>➢ Add, promote, and share your favorite music.</p>
             <p>
@@ -106,50 +153,6 @@ const PortfolioPage: React.FunctionComponent<PortfolioProps> = (props: any) => {
               className="profile-gif-mobile"
               src={Project8GIF}
               alt="Project 8a GIF"
-              height="100%"
-              width="100%"
-            />
-          </div>
-        </PortfolioContent>
-
-        <PortfolioContent>
-          <div>
-            <h2>Share Analytics</h2>
-            <p>
-              ➢ Input a link and returns a tracker link gathers how many times
-              the link has been clicked.
-            </p>
-            <p>
-              ➢ Website:
-              <a
-                href="https://music.jaconjcondes.com"
-                target="_blank"
-                className="github-link">
-                Music Share
-              </a>
-            </p>
-            <p>
-              ➢ Github Repo:{' '}
-              <a
-                href="https://github.com/jakec888/share-analytics"
-                target="_blank"
-                className="github-link">
-                Share Analytics
-              </a>
-            </p>
-            <p>
-              ➢ Built Using (noSQL): React JS, Node JS, Express JS, Mongoose,
-              and Mongo DB
-            </p>
-            <p>
-              ➢ Built Using (SQL): React JS, Python, Flask, SQLalchemy, and
-              PostgreSQL
-            </p>
-            <p>➢ Testing: Jest, Enzyme, and Moxiox</p>
-            <img
-              className="profile-gif-mobile"
-              src={Project7GIF}
-              alt="Project 7a GIF"
               height="100%"
               width="100%"
             />
