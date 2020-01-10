@@ -4,7 +4,7 @@ import {themeGet} from 'styled-system';
 export const NotFoundWrapper = styled.div`
   position: relative;
   margin: 0 auto;
-  padding: 120px 0 0;
+  padding: 30px 0 0;
   display: flex;
   align-items: center;
   flex-wrap: wrap;

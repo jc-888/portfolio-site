@@ -1,5 +1,4 @@
 import * as React from 'react';
-import Image from 'gatsby-image';
 import {useStaticQuery, graphql, Link} from 'gatsby';
 import {IoMdArrowRoundBack} from 'react-icons/io';
 import {
@@ -34,7 +33,7 @@ const NotFound: React.FunctionComponent<NotFoundProps> = props => {
   return (
     <NotFoundWrapper>
       <NotFoundContent>
-        <h1>This Page Was Lost</h1>
+        <h1>This Page Was Not Found</h1>
         <p>
           The Page You are looking for isn’t available. Try to search again or
           use the Go Back button below.
@@ -49,7 +48,12 @@ const NotFound: React.FunctionComponent<NotFoundProps> = props => {
         </Goback>
       </NotFoundContent>
       <NotFoundImage>
-        <Image fluid={Data.avatar.childImageSharp.fluid} alt="author" />
+        <img
+          src="https://media.giphy.com/media/jkZtSdwKOx05BOlapR/giphy.gif"
+          alt="author"
+          height="100%"
+          width="100%"
+        />
       </NotFoundImage>
     </NotFoundWrapper>
   );

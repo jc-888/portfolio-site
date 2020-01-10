@@ -24,8 +24,13 @@ const Layout: React.FunctionComponent<LayoutProps> = ({children}) => {
         {children}
 
         <Footer>
-          Copyright &copy; {new Date().getFullYear()}
-          <a href="/"> Jacon J Condes</a>
+          <div>
+            Copyright &copy; {new Date().getFullYear()}
+            <a href="/"> Jacon J Condes</a>
+          </div>
+          <div>
+            Build Using Gatsby JS
+          </div>
         </Footer>
         <ScrollToTop
           showUnder={300}
