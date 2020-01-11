@@ -26,10 +26,10 @@ const Layout: React.FunctionComponent<LayoutProps> = ({children}) => {
         <Footer>
           <div>
             Copyright &copy; {new Date().getFullYear()}
-            <a href="/"> Jacon J Condes</a>
+            <a href="/"> <strong>Jacon J Condes</strong></a>
           </div>
           <div>
-            Build Using Gatsby JS
+            <i>Build Using Gatsby JS</i>
           </div>
         </Footer>
         <ScrollToTop
