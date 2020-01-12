@@ -28,8 +28,8 @@ const Layout: React.FunctionComponent<LayoutProps> = ({children}) => {
             Copyright &copy; {new Date().getFullYear()}
             <a href="/"> <strong>Jacon J Condes</strong></a>
           </div>
-          <div>
-            <i>Build Using Gatsby JS</i>
+          <div style={{fontSize: "10px"}}>
+            <i>Build Using Gatsby JS</i> | <i>Hosted On Netlify</i>
           </div>
         </Footer>
         <ScrollToTop
