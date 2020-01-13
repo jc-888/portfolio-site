@@ -11,8 +11,8 @@ const PortfolioPage: React.FunctionComponent<PortfolioPageProps> = (
   return (
     <Layout>
       <SEO
-        title="About Me"
-        description="A historical account/biography written from personal knowledge of my past"
+        title="Portfolio"
+        description="A collection of my personal projects"
       />
       <Portfolio />
     </Layout>
