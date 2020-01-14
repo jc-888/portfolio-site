@@ -1,37 +1,37 @@
 import * as React from 'react';
 import {useStaticQuery, graphql} from 'gatsby';
 import Image from 'gatsby-image';
-
-import {
-  IoLogoFacebook,
-  IoLogoTwitter,
-  IoLogoInstagram,
-  IoLogoLinkedin,
-} from 'react-icons/io';
 import {AboutWrapper, AboutImage, AboutPageTitle, AboutDetails} from './style';
 
-const SocialLinks = [
-  {
-    icon: <IoLogoFacebook />,
-    url: '#',
-    tooltip: 'Facebook',
-  },
-  {
-    icon: <IoLogoInstagram />,
-    url: '#',
-    tooltip: 'Instagram',
-  },
-  {
-    icon: <IoLogoTwitter />,
-    url: '#',
-    tooltip: 'Twitter',
-  },
-  {
-    icon: <IoLogoLinkedin />,
-    url: '#',
-    tooltip: 'Linked In',
-  },
-];
+// import {
+//   IoLogoFacebook,
+//   IoLogoTwitter,
+//   IoLogoInstagram,
+//   IoLogoLinkedin,
+// } from 'react-icons/io';
+
+// const SocialLinks = [
+//   {
+//     icon: <IoLogoFacebook />,
+//     url: '#',
+//     tooltip: 'Facebook',
+//   },
+//   {
+//     icon: <IoLogoInstagram />,
+//     url: '#',
+//     tooltip: 'Instagram',
+//   },
+//   {
+//     icon: <IoLogoTwitter />,
+//     url: '#',
+//     tooltip: 'Twitter',
+//   },
+//   {
+//     icon: <IoLogoLinkedin />,
+//     url: '#',
+//     tooltip: 'Linked In',
+//   },
+// ];
 
 interface AboutProps {}
 
@@ -40,7 +40,14 @@ const AboutPage: React.FunctionComponent<AboutProps> = props => {
     query {
       avatar: file(absolutePath: {regex: "/about.jpg/"}) {
         childImageSharp {
-          fluid(maxWidth: 1770, quality: 90) {
+          fluid(quality: 100) {
+            ...GatsbyImageSharpFluid
+          }
+        }
+      }
+      family: file(absolutePath: {regex: "/family.jpg/"}) {
+        childImageSharp {
+          fluid(quality: 100) {
             ...GatsbyImageSharpFluid
           }
         }
@@ -63,11 +70,15 @@ const AboutPage: React.FunctionComponent<AboutProps> = props => {
         </p>
       </AboutPageTitle>
 
-      <AboutImage>
-        <Image fluid={Data.avatar.childImageSharp.fluid} alt="author" />
-      </AboutImage>
-
       <AboutDetails>
+        <AboutImage>
+          <Image
+            fluid={Data.family.childImageSharp.fluid}
+            alt="family"
+            style={{width: '650px', height: '650px', margin: 'auto'}}
+          />
+        </AboutImage>
+
         <h2>Who, Me?</h2>
         <p>
           I am a goal-oriented <strong>Full-Stack Web Developer</strong> and{' '}
@@ -82,10 +93,17 @@ const AboutPage: React.FunctionComponent<AboutProps> = props => {
           and exciting position as a Full-Stack Web Developer and Full-Stack
           Mobile Developer where I can use my skills to write scalable,
           maintainable, and testable code. As a recent graduate from General
-          Assembly with an associate's degree in Business Administration and
-          experience working as an intern software engineer at the Human Health
-          Project, I am motivated and intent on providing immediate value.
+          Assembly with an degree in Business Administration and experience
+          working as an volunteer software engineer at the Human Health Project.
         </p>
+
+        <AboutImage>
+          <Image
+            fluid={Data.avatar.childImageSharp.fluid}
+            alt="author"
+            style={{width: '650px', height: '650px', margin: 'auto'}}
+          />
+        </AboutImage>
       </AboutDetails>
     </AboutWrapper>
   );

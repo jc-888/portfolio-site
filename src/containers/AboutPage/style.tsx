@@ -34,12 +34,12 @@ export const AboutPageTitle = styled.div`
 `;
 
 export const AboutImage = styled.div`
-  margin-bottom: 90px;
+  margin-bottom: 25px;
   @media (max-width: 990px) {
-    margin-bottom: 60px;
+    margin-bottom: 20px;
   }
   @media (max-width: 767px) {
-    margin-bottom: 40px;
+    margin-bottom: 15px;
   }
 `;
 

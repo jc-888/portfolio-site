@@ -92,7 +92,7 @@ const PortfolioPage: React.FunctionComponent<PortfolioProps> = (props: any) => {
               ➢ Built Using (Flask Folder): React JS, Python, Flask, SQLalchemy,
               and PostgreSQL
             </p>
-            <p>➢ Built Using (Rails): React JS, Rails, and MySQL</p>
+            <p>➢ Built Using (Ruby on Rails): React JS, Ruby on Rails, and MySQL</p>
             <p>➢ Testing: Jest, Enzyme, and Moxiox</p>
             <img
               className="profile-gif-mobile"
