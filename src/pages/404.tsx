@@ -14,13 +14,13 @@ const NotFoundPage = (props: any) => {
       <SEO title="404: Not Found" />
       <NotFound />
       <Footer>
-      <div>
-        Copyright &copy; {new Date().getFullYear()}
-        <a href="/"> Jacon J Condes</a>
-      </div>
-      <div>
-        Build Using Gatsby JS
-      </div>
+        <div>
+          Copyright &copy; {new Date().getFullYear()}
+          <a href="/"> Jacon J Condes</a>
+        </div>
+        <div>
+          Build Using Gatsby JS
+        </div>
       </Footer>
     </>
   );
