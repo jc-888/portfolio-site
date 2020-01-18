@@ -20,14 +20,14 @@ module.exports = {
     {
       resolve: `gatsby-source-filesystem`,
       options: {
-        path: `${__dirname}/content/blog`,
+        path: `${__dirname}/src/content/blog`,
         name: `blog`,
       },
     },
     {
       resolve: `gatsby-source-filesystem`,
       options: {
-        path: `${__dirname}/content/assets`,
+        path: `${__dirname}/src/content/assets`,
         name: `assets`,
       },
     },
@@ -98,7 +98,7 @@ module.exports = {
         background_color: `#ffffff`,
         theme_color: `#1D95D1`,
         display: `minimal-ui`,
-        icon: `content/assets/favicon.png`,
+        icon: `src/content/assets/favicon.png`,
       },
     },
     {
