@@ -1,16 +1,16 @@
 const colors = {
-  transparent: 'transparent', // 0
-  black: '#292929', // 1
-  white: '#ffffff', // 2
-  textColor: '#292929', // 3
-  lightTextColor: '#757575', // 4
-  inactiveField: '#F7F7F7', // 5
-  inactiveColor: '#767676', // 6
-  inactiveBG: '#e6e6e6', // 7
-  borderColor: '#DBDBDB', // 8
-  lightBorderColor: '#ededed', //9
-  primary: '#1D95D1', // 10
-  primaryHover: '#1D95D1', // 11
+  transparent: 'transparent',
+  black: '#292929',
+  white: '#ffffff',
+  textColor: '#292929',
+  lightTextColor: '#757575',
+  inactiveField: '#F7F7F7',
+  inactiveColor: '#767676',
+  inactiveBG: '#e6e6e6',
+  borderColor: '#DBDBDB',
+  lightBorderColor: '#ededed',
+  primary: '#1D95D1',
+  primaryHover: '#1D95D1',
 };
 
 export default colors;

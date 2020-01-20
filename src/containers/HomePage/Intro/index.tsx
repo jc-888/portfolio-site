@@ -36,7 +36,7 @@ const SocialLinks = [
   },
 ];
 
-const Intro: React.FunctionComponent<IntroProps> = props => {
+const Intro: React.FunctionComponent<IntroProps> = () => {
   const Data = useStaticQuery(graphql`
     query {
       avatar: file(absolutePath: {regex: "/author.jpg/"}) {

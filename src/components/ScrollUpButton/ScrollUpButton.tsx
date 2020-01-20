@@ -4,7 +4,7 @@ import ScrollUpButtonWrapper from './ScrollUpButton.style';
 
 interface ScrollUpButtonProps {}
 
-const ScrollUpButton: React.FunctionComponent<ScrollUpButtonProps> = props => {
+const ScrollUpButton: React.FunctionComponent<ScrollUpButtonProps> = () => {
   return (
     <ScrollUpButtonWrapper {...props}>
       <IoMdArrowRoundUp />

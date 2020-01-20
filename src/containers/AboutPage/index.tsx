@@ -35,7 +35,7 @@ import {AboutWrapper, AboutImage, AboutPageTitle, AboutDetails} from './style';
 
 interface AboutProps {}
 
-const AboutPage: React.FunctionComponent<AboutProps> = props => {
+const AboutPage: React.FunctionComponent<AboutProps> = () => {
   const Data = useStaticQuery(graphql`
     query {
       avatar: file(absolutePath: {regex: "/about.jpg/"}) {

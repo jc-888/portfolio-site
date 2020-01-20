@@ -5,7 +5,7 @@ import Contact from '../containers/ContactPage';
 
 type ContactPageProps = {};
 
-const ContactPage: React.FunctionComponent<ContactPageProps> = props => {
+const ContactPage: React.FunctionComponent<ContactPageProps> = () => {
   return (
     <Layout>
       <SEO

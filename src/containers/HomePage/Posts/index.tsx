@@ -6,7 +6,7 @@ import BlogPostsWrapper from './style';
 
 type PostsProps = {};
 
-const Posts: React.FunctionComponent<PostsProps> = props => {
+const Posts: React.FunctionComponent<PostsProps> = () => {
   const Data = useStaticQuery(graphql`
     query {
       site {
