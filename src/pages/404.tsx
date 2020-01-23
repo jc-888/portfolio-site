@@ -6,7 +6,7 @@ import SEO from '../components/seo';
 import NotFound from '../containers/NotFound';
 import Footer from '../components/Footer/Footer';
 
-const NotFoundPage = (props: any) => {
+const NotFoundPage = () => {
   return (
     <>
       <ResetCss />
@@ -15,8 +15,8 @@ const NotFoundPage = (props: any) => {
       <NotFound />
       <Footer>
         <div>
-          Copyright &copy; {new Date().getFullYear()}
-          <a href="/"> Jacon J Condes</a>
+          Copyright &copy; {new Date().getFullYear()} {" "}
+          <strong>Jacon J Condes</strong>
         </div>
         <div>
           Build Using Gatsby JS
