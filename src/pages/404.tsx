@@ -18,9 +18,6 @@ const NotFoundPage = () => {
           Copyright &copy; {new Date().getFullYear()} {" "}
           <strong>Jacon J Condes</strong>
         </div>
-        <div>
-          Build Using Gatsby JS
-        </div>
       </Footer>
     </>
   );
