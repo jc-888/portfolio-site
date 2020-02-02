@@ -66,7 +66,7 @@
     "@types/styled-system": "^4.1.0",
     "@types/yup": "^0.26.13",
     "husky": "^3.1.0",
-    "prettier": "^1.17.0"
+    "prettier": "^1.19.1"
   },
   "homepage": "https://github.com/gatsbyjs/gatsby-starter-blog#readme",
   "keywords": [
