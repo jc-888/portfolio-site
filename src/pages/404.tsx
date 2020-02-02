@@ -15,7 +15,7 @@ const NotFoundPage = () => {
       <NotFound />
       <Footer>
         <div>
-          Copyright &copy; {new Date().getFullYear()} {" "}
+          Copyright &copy; {new Date().getFullYear()}{' '}
           <strong>Jacon J Condes</strong>
         </div>
       </Footer>

@@ -5,9 +5,7 @@ import Portfolio from '../containers/PortfolioPage';
 
 type PortfolioPageProps = {};
 
-const PortfolioPage: React.FunctionComponent<PortfolioPageProps> = (
-  props: any,
-) => {
+const PortfolioPage: React.FunctionComponent<PortfolioPageProps> = () => {
   return (
     <Layout>
       <SEO

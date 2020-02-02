@@ -3,36 +3,6 @@ import {useStaticQuery, graphql} from 'gatsby';
 import Image from 'gatsby-image';
 import {AboutWrapper, AboutImage, AboutPageTitle, AboutDetails} from './style';
 
-// import {
-//   IoLogoFacebook,
-//   IoLogoTwitter,
-//   IoLogoInstagram,
-//   IoLogoLinkedin,
-// } from 'react-icons/io';
-
-// const SocialLinks = [
-//   {
-//     icon: <IoLogoFacebook />,
-//     url: '#',
-//     tooltip: 'Facebook',
-//   },
-//   {
-//     icon: <IoLogoInstagram />,
-//     url: '#',
-//     tooltip: 'Instagram',
-//   },
-//   {
-//     icon: <IoLogoTwitter />,
-//     url: '#',
-//     tooltip: 'Twitter',
-//   },
-//   {
-//     icon: <IoLogoLinkedin />,
-//     url: '#',
-//     tooltip: 'Linked In',
-//   },
-// ];
-
 interface AboutProps {}
 
 const AboutPage: React.FunctionComponent<AboutProps> = () => {
@@ -63,14 +33,10 @@ const AboutPage: React.FunctionComponent<AboutProps> = () => {
 
   return (
     <AboutWrapper>
-      <AboutPageTitle>
-        <h2>About Me</h2>
-        <p>
-          Full-Stack Web & Mobile Developer from the Greater Los Angeles Area.
-        </p>
-      </AboutPageTitle>
-
       <AboutDetails>
+        <AboutPageTitle>
+          <h2>About Me</h2>
+        </AboutPageTitle>
         <AboutImage>
           <Image
             fluid={Data.family.childImageSharp.fluid}
@@ -78,8 +44,6 @@ const AboutPage: React.FunctionComponent<AboutProps> = () => {
             style={{width: '650px', height: '650px', margin: 'auto'}}
           />
         </AboutImage>
-
-        <h2>Who, Me?</h2>
         <p>
           I am a goal-oriented <strong>Full-Stack Web Developer</strong> and{' '}
           <strong>Full-Stack Mobile Developer</strong> with a strong commitment

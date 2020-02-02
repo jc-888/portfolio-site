@@ -56,7 +56,7 @@ const PortfolioPage: React.FunctionComponent<PortfolioProps> = () => {
             <p>➢ Testing: Jest, Enzyme, and Moxiox</p>
             <img
               className="profile-gif-mobile"
-              src="https://jaconjcondesportfoliosite.s3.amazonaws.com/project7.gif"
+              src="https://d2ff5ph8qoyex8.cloudfront.net/project7.gif"
               alt="Project 7a GIF"
               height="100%"
               width="100%"
@@ -87,7 +87,7 @@ const PortfolioPage: React.FunctionComponent<PortfolioProps> = () => {
             <p>➢ Built Using: React, Express, GraphQL, and Mongo</p>
             <img
               className="profile-gif"
-              src="https://jaconjcondesportfoliosite.s3.amazonaws.com/project9.gif"
+              src="https://d2ff5ph8qoyex8.cloudfront.net/project9.gif"
               alt="Project GIF"
               height="100%"
               width="100%"
@@ -111,7 +111,7 @@ const PortfolioPage: React.FunctionComponent<PortfolioProps> = () => {
             <p>➢ Built Using: Python, PyTorch</p>
             <img
               className="profile-gif-mobile"
-              src="https://jaconjcondesportfoliosite.s3.amazonaws.com/project8.gif"
+              src="https://d2ff5ph8qoyex8.cloudfront.net/project8.gif"
               alt="Project 8a GIF"
               height="100%"
               width="100%"
@@ -150,21 +150,21 @@ const PortfolioPage: React.FunctionComponent<PortfolioProps> = () => {
             </p>
             <img
               className="profile-gif-mobile"
-              src="https://jaconjcondesportfoliosite.s3.amazonaws.com/project6a.gif"
+              src="https://d2ff5ph8qoyex8.cloudfront.net/project6a.gif"
               alt="Project 6a GIF"
               height="30%"
               width="30%"
             />
             <img
               className="profile-gif-mobile"
-              src="https://jaconjcondesportfoliosite.s3.amazonaws.com/project6b.gif"
+              src="https://d2ff5ph8qoyex8.cloudfront.net/project6b.gif"
               alt="Project 6b GIF"
               height="30%"
               width="30%"
             />
             <img
               className="profile-gif-mobile"
-              src="https://jaconjcondesportfoliosite.s3.amazonaws.com/project6c.gif"
+              src="https://d2ff5ph8qoyex8.cloudfront.net/project6c.gif"
               alt="Project 6c GIF"
               height="30%"
               width="30%"
@@ -203,7 +203,7 @@ const PortfolioPage: React.FunctionComponent<PortfolioProps> = () => {
             </p>
             <img
               className="profile-gif"
-              src="https://jaconjcondesportfoliosite.s3.amazonaws.com/project5a.gif"
+              src="https://d2ff5ph8qoyex8.cloudfront.net/project5a.gif"
               alt="Project 5a GIF"
               height="100%"
               width="100%"
@@ -211,7 +211,7 @@ const PortfolioPage: React.FunctionComponent<PortfolioProps> = () => {
             <br />
             <img
               className="profile-gif"
-              src="https://jaconjcondesportfoliosite.s3.amazonaws.com/project5b.gif"
+              src="https://d2ff5ph8qoyex8.cloudfront.net/project5b.gif"
               alt="Project 5b GIF"
               height="100%"
               width="100%"
@@ -219,7 +219,7 @@ const PortfolioPage: React.FunctionComponent<PortfolioProps> = () => {
             <br />
             <img
               className="profile-gif"
-              src="https://jaconjcondesportfoliosite.s3.amazonaws.com/project5c.gif"
+              src="https://d2ff5ph8qoyex8.cloudfront.net/project5c.gif"
               alt="Project 5b GIF"
               height="100%"
               width="100%"
@@ -247,7 +247,7 @@ const PortfolioPage: React.FunctionComponent<PortfolioProps> = () => {
             <p>➢ Built Using: React Native, DynamoDB, Serverless Framework</p>
             <img
               className="profile-gif-mobile"
-              src="https://jaconjcondesportfoliosite.s3.amazonaws.com/project4.gif"
+              src="https://d2ff5ph8qoyex8.cloudfront.net/project4.gif"
               alt="Project GIF"
               height="50%"
               width="50%"
@@ -281,7 +281,7 @@ const PortfolioPage: React.FunctionComponent<PortfolioProps> = () => {
             <p>➢ Built Using: React, Ruby on Rails, PostgreSQL</p>
             <img
               className="profile-gif"
-              src="https://jaconjcondesportfoliosite.s3.amazonaws.com/project3.gif"
+              src="https://d2ff5ph8qoyex8.cloudfront.net/project3.gif"
               alt="Project GIF"
               height="100%"
               width="100%"
@@ -313,7 +313,7 @@ const PortfolioPage: React.FunctionComponent<PortfolioProps> = () => {
             </p>
             <img
               className="profile-gif"
-              src="https://jaconjcondesportfoliosite.s3.amazonaws.com/project2.gif"
+              src="https://d2ff5ph8qoyex8.cloudfront.net/project2.gif"
               alt="Project GIF"
               height="100%"
               width="100%"
@@ -341,7 +341,7 @@ const PortfolioPage: React.FunctionComponent<PortfolioProps> = () => {
             <p>➢ Built Using: JQuery, HTML, CSS</p>
             <img
               className="profile-gif"
-              src="https://jaconjcondesportfoliosite.s3.amazonaws.com/project1.gif"
+              src="https://d2ff5ph8qoyex8.cloudfront.net/project1.gif"
               alt="Project GIF"
               height="100%"
               width="100%"
