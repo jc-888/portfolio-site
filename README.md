@@ -4,9 +4,11 @@ URL: https://jaconjcondes.com
 
 ## Intro
 
-Hello There,
+Hi!
 
 This is my personal portfolio and blog website.
+
+Built using Gatsby JS.
 
 ### Things To Do:
 
