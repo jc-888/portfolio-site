@@ -5,12 +5,12 @@ export const PortfolioWrapper = styled.div`
   position: relative;
   padding: 90px 75px 0 75px;
 
-  p{
+  p {
     margin: 0 0 0 0;
   }
 
   a {
-    color: #1D95D1
+    color: #1d95d1;
   }
 
   @media (max-width: 990px) {
