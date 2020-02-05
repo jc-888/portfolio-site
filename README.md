@@ -4,7 +4,7 @@ URL: https://jaconjcondes.com
 
 ## Intro
 
-Hi!
+Hello,
 
 This is my personal portfolio and blog website.
 
