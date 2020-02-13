@@ -25,7 +25,7 @@ const Layout: React.FunctionComponent<LayoutProps> = ({children}) => {
 
         <Footer>
           <div>
-            Copyright &copy; {new Date().getFullYear()} {" "}
+            Copyright &copy; {new Date().getFullYear()}{' '}
             <strong>Jacon J Condes</strong>
           </div>
         </Footer>
