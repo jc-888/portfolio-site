@@ -6,6 +6,8 @@ import {
   OrganizationsImage,
   OrganizationsPageTitle,
   OrganizationsDetails,
+  OrganizationsBlock,
+  OrganizationsBlockContainer,
 } from './style';
 
 interface OrganizationsProps {}
@@ -13,7 +15,7 @@ interface OrganizationsProps {}
 const OrganizationsPage: React.FunctionComponent<OrganizationsProps> = () => {
   const Data = useStaticQuery(graphql`
     query {
-      avatar: file(absolutePath: {regex: "/about.jpg/"}) {
+      aclu: file(absolutePath: {regex: "/ACLU.png/"}) {
         childImageSharp {
           fluid(quality: 100) {
             ...GatsbyImageSharpFluid
@@ -40,39 +42,25 @@ const OrganizationsPage: React.FunctionComponent<OrganizationsProps> = () => {
     <OrganizationsWrapper>
       <OrganizationsDetails>
         <OrganizationsPageTitle>
-          <h2>Organizations Me</h2>
+          <h2>Organizations</h2>
         </OrganizationsPageTitle>
-        <OrganizationsImage>
-          <Image
-            fluid={Data.family.childImageSharp.fluid}
-            alt="family"
-            style={{width: '650px', height: '650px', margin: 'auto'}}
-          />
-        </OrganizationsImage>
-        <p>
-          I am a goal-oriented <strong>Full-Stack Web Developer</strong> and{' '}
-          <strong>Full-Stack Mobile Developer</strong> with a strong commitment
-          to collaboration, solutions-oriented problem-solving, and test-driven
-          development. Takes strong pride in delivering quality work and a
-          willingness to assist a team member with their tasks/duties, when
-          necessary. Emphasis on scalable, maintainable, and testable code.
-        </p>
-        <p>
-          I've been coding since 2017, I am seeking a challenging, interesting,
-          and exciting position as a Full-Stack Web Developer and Full-Stack
-          Mobile Developer where I can use my skills to write scalable,
-          maintainable, and testable code. As a recent graduate from General
-          Assembly with an degree in Business Administration and experience
-          working as an volunteer software engineer at the Human Health Project.
-        </p>
 
-        <OrganizationsImage>
-          <Image
-            fluid={Data.avatar.childImageSharp.fluid}
-            alt="author"
-            style={{width: '650px', height: '650px', margin: 'auto'}}
-          />
-        </OrganizationsImage>
+        <OrganizationsBlock>
+          <OrganizationsBlockContainer>
+            <h3>ACLU</h3>
+            <p>
+              The American Civil Liberties Union is a nonprofit organization
+              whose stated mission is "to defend and preserve the individual
+              rights and liberties guaranteed to every person in this country by
+              the Constitution and laws of the United States."
+            </p>
+          </OrganizationsBlockContainer>
+          <OrganizationsBlockContainer>
+            <OrganizationsImage>
+              <Image fluid={Data.aclu.childImageSharp.fluid} alt="ACLU" />
+            </OrganizationsImage>
+          </OrganizationsBlockContainer>
+        </OrganizationsBlock>
       </OrganizationsDetails>
     </OrganizationsWrapper>
   );

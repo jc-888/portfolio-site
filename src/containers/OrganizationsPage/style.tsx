@@ -1,6 +1,14 @@
 import styled from 'styled-components';
 import {themeGet} from 'styled-system';
 
+export const OrganizationsBlock = styled.div`
+  display: flex;
+`;
+
+export const OrganizationsBlockContainer = styled.div`
+  width: 50%;
+`;
+
 export const OrganizationsWrapper = styled.div`
   position: relative;
   padding: 90px 75px 0 75px;
@@ -33,15 +41,7 @@ export const OrganizationsPageTitle = styled.div`
   }
 `;
 
-export const OrganizationsImage = styled.div`
-  margin-bottom: 25px;
-  @media (max-width: 990px) {
-    margin-bottom: 20px;
-  }
-  @media (max-width: 767px) {
-    margin-bottom: 15px;
-  }
-`;
+export const OrganizationsImage = styled.div``;
 
 export const OrganizationsDetails = styled.div`
   width: 870px;

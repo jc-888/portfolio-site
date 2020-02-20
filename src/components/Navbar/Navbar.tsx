@@ -29,6 +29,10 @@ const MenuItems = [
     label: 'About',
     url: '/about',
   },
+  // {
+  //   label: 'Organizations',
+  //   url: '/organizations',
+  // },
   {
     label: 'Contact',
     url: '/contact',
