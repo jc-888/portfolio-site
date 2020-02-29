@@ -96,6 +96,40 @@ const OrganizationsPage: React.FunctionComponent<OrganizationsProps> = () => {
             </OrganizationsImage>
           </OrganizationsBlockContainer>
         </OrganizationsBlock>
+
+        <OrganizationsBlock>
+          <OrganizationsBlockContainer>
+            <h3>Human Health Project</h3>
+            <p>
+              Human Health Project‘s (HHP) foundation is built upon peer-to-peer
+              health information, education, and support. Through our programs,
+              our objective is to empower individuals locally and globally to
+              manage their health.
+            </p>
+          </OrganizationsBlockContainer>
+          <OrganizationsBlockContainer>
+            <OrganizationsImage>
+              <Image fluid={Data.aclu.childImageSharp.fluid} alt="ACLU" />
+            </OrganizationsImage>
+          </OrganizationsBlockContainer>
+        </OrganizationsBlock>
+
+        <OrganizationsBlock>
+          <OrganizationsBlockContainer>
+            <h3>EnCiv</h3>
+            <p>
+              EnCiv automates proven human-interaction methods to scale
+              productive democratic discourse.Our mission is to improve society
+              with a comprehensive civic platform and a network of nonpartisan
+              organizations.
+            </p>
+          </OrganizationsBlockContainer>
+          <OrganizationsBlockContainer>
+            <OrganizationsImage>
+              <Image fluid={Data.aclu.childImageSharp.fluid} alt="ACLU" />
+            </OrganizationsImage>
+          </OrganizationsBlockContainer>
+        </OrganizationsBlock>
       </OrganizationsDetails>
     </OrganizationsWrapper>
   );
