@@ -15,4 +15,4 @@ Built using Gatsby JS.
 - add gifs and pictures to s3 or cloudfront (done)
 - refactor code
 - add search bar
-- add organizations section
+- add organizations
