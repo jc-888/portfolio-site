@@ -12,7 +12,6 @@ Built using Gatsby JS.
 
 ### Things To Do:
 
-- add gifs and pictures to s3 or cloudfront (done)
 - refactor code
 - add search bar
 - add organizations
