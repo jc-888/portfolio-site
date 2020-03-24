@@ -6,7 +6,7 @@ URL: https://jaconjcondes.com
 
 Hello,
 
-This is my personal portfolio and blog website.
+This is my personal portfolio website.
 
 Built using Gatsby JS.
 
