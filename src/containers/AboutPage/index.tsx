@@ -53,12 +53,13 @@ const AboutPage: React.FunctionComponent<AboutProps> = () => {
           necessary. Emphasis on scalable, maintainable, and testable code.
         </p>
         <p>
-          I've been coding since 2017, I am seeking a challenging, interesting,
-          and exciting position as a Full-Stack Web Developer and Full-Stack
-          Mobile Developer where I can use my skills to write scalable,
-          maintainable, and testable code. As a recent graduate from General
-          Assembly with an degree in Business Administration and experience
-          working as an volunteer software engineer at the Human Health Project.
+          I am seeking a challenging, interesting, and exciting position as a
+          Full-Stack Web Developer and Full-Stack Mobile Developer where I can
+          use my skills to write scalable, maintainable, and testable code. As a
+          recent graduate from General Assembly with an degree in Business
+          Administration and experience working as an volunteer software
+          engineer at the Human Health Project. I have also done volunteering at
+          Hack for LA where I do work in the Civic sector.
         </p>
 
         <AboutImage>
