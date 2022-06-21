@@ -26,7 +26,7 @@ workbox.clientsClaim();
  */
 self.__precacheManifest = [
   {
-    "url": "webpack-runtime-4beb4d9c1912503f641c.js"
+    "url": "webpack-runtime-deba8517a870aca6f0e2.js"
   },
   {
     "url": "styles.a6825b616067854fe6c0.css"
@@ -45,51 +45,7 @@ self.__precacheManifest = [
   },
   {
     "url": "offline-plugin-app-shell-fallback/index.html",
-    "revision": "537eeb78f971ceeb9cca32459ce43c91"
-  },
-  {
-    "url": "google-fonts/s/firasans/v10/va9B4kDNxMZdWfMOD5VnLK3eRhf6.woff2",
-    "revision": "2ecb426f85ffc1c53b677556210e629f"
-  },
-  {
-    "url": "google-fonts/s/firasans/v10/va9B4kDNxMZdWfMOD5VnPKreRhf6.woff2",
-    "revision": "b39aa336eef260975654fde0959de6fe"
-  },
-  {
-    "url": "google-fonts/s/firasans/v10/va9B4kDNxMZdWfMOD5VnSKzeRhf6.woff2",
-    "revision": "5a2c789b59571ce97f51f9c75600f49b"
-  },
-  {
-    "url": "google-fonts/s/firasans/v10/va9B4kDNxMZdWfMOD5VnZKveRhf6.woff2",
-    "revision": "d8bc03a60729f4b05b42e057e21eaed3"
-  },
-  {
-    "url": "google-fonts/s/firasans/v10/va9C4kDNxMZdWfMOD5Vn9LjJYTI.woff2",
-    "revision": "d67acf5dba25b4f92e3eadad20032199"
-  },
-  {
-    "url": "google-fonts/s/firasans/v10/va9E4kDNxMZdWfMOD5Vvl4jL.woff2",
-    "revision": "78773521b0ffe376bc7edd8ec2a591fb"
-  },
-  {
-    "url": "google-fonts/s/poppins/v9/pxiByp8kv8JHgFVrLCz7Z1xlFQ.woff2",
-    "revision": "e535f7856b24153e0f3146e8f90a45c5"
-  },
-  {
-    "url": "google-fonts/s/poppins/v9/pxiByp8kv8JHgFVrLDz8Z1xlFQ.woff2",
-    "revision": "e8794816c5eaeaa9dd20a6d77ea3b272"
-  },
-  {
-    "url": "google-fonts/s/poppins/v9/pxiByp8kv8JHgFVrLEj6Z1xlFQ.woff2",
-    "revision": "aa4405ed937295296cf8510f437628e0"
-  },
-  {
-    "url": "google-fonts/s/poppins/v9/pxiByp8kv8JHgFVrLGT9Z1xlFQ.woff2",
-    "revision": "61e2d96d01a7eba5ea3ec1bad7e736a8"
-  },
-  {
-    "url": "google-fonts/s/poppins/v9/pxiEyp8kv8JHgFVrJJfecg.woff2",
-    "revision": "1a280523d375e9358d5229df34fc8e94"
+    "revision": "b14d7401abb21e217d76ee49e0c7af45"
   },
   {
     "url": "manifest.webmanifest",
