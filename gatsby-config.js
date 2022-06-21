@@ -6,7 +6,7 @@ module.exports = {
   siteMetadata: {
     title: `My Personal Portfolio and Blog`,
     author: `Jacon J Condes`,
-    about: `Hi! My friends and colleagues call me Jake. I’m a Full-Stack Web & Mobile Developer from the Greater Los Angeles Area. As of the current moment, I am volunteering and gaining experience by doing web and mobile development work in the Healthcare and Civic sector.`,
+    about: `Hi! My friends and colleagues call me Jake. I’m a Full-Stack Web & Mobile Developer from the Greater Los Angeles Area. As of the current moment, I am Software Engineer at Unicorns and Unicorns.`,
     description: `This is Jacon (Jake) Condes's personal portfolio and blog site. Feel free to look around!`,
     siteUrl: `https://jaconjcondes.com`,
   },
