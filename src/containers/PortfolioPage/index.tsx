@@ -19,6 +19,152 @@ const PortfolioPage: React.FunctionComponent<PortfolioProps> = () => {
       <PortfolioDetails>
         <PortfolioContent>
           <div>
+            <h2>Smithsonian Institution</h2>
+            <p>
+              ➢ Built the frontend and AI Pipeline that produces a rendered video of the user that is aged with a cloned voice that will guide them towards the future.
+            </p>
+            <p>
+              ➢ Website:{' '}
+              <a
+                href="https://aib.si.edu/futures"
+                target="_blank"
+                className="github-link">Smithsonian Institution</a>
+            </p>
+          </div>
+        </PortfolioContent>
+      </PortfolioDetails>
+
+      <PortfolioDetails>
+        <PortfolioContent>
+          <div>
+            <h2>Popeyes Louisiana Kitchen</h2>
+            <p>
+              ➢ Built a “chicken or weed” phone app extension that gets the user to play a guessing game and a twitter bot that gives users free food.
+            </p>
+            <p>
+              ➢ Website:{' '}
+              <a
+                href="https://apps.apple.com/us/app/popeyes/id1386566985"
+                target="_blank"
+                className="github-link">Popeyes Louisiana Kitchen</a>
+            </p>
+          </div>
+        </PortfolioContent>
+      </PortfolioDetails>
+
+      <PortfolioDetails>
+        <PortfolioContent>
+          <div>
+            <h2>Pebbles Cereal</h2>
+            <p>
+              ➢ Built a multi page application that encourages kids to exercise their artistic endeavors.
+            </p>
+            <p>
+              ➢ Website:{' '}
+              <a
+                href="https://createwithpebbles.com/"
+                target="_blank"
+                className="github-link">Pebbles Cereal</a>
+            </p>
+          </div>
+        </PortfolioContent>
+      </PortfolioDetails>
+      
+      <PortfolioDetails>
+        <PortfolioContent>
+          <div>
+            <h2>Philadelphia Cream Cheese</h2>
+            <p>
+              ➢ Built the react SPA landing page that was part of a PR campaign which demonstrates how to make a PS5 Cream Cheese cake which served over 15 million users within 30 minutes and amassed over 100 million total impressions.             
+            </p>
+            <p>
+              ➢ Website:{' '}
+              <a
+                href="https://phillyseries5.com/"
+                target="_blank"
+                className="github-link">Philadelphia Cream Cheese</a>
+            </p>
+          </div>
+        </PortfolioContent>
+      </PortfolioDetails>
+
+      <PortfolioDetails>
+        <PortfolioContent>
+          <div>
+            <h2>15 Percent Pledge</h2>
+            <p>
+              ➢ Built the website for the US-based non-profit organization that encourages retailers to pledge at least 15 percent of their shelf-space to Black-owned businesses. 
+            </p>
+            <p>
+              ➢ Website:{' '}
+              <a
+                href="https://15percentpledge.org/"
+                target="_blank"
+                className="github-link">15 Percent Pledge</a>
+            </p>
+          </div>
+        </PortfolioContent>
+      </PortfolioDetails>
+
+      <PortfolioDetails>
+        <PortfolioContent>
+          <div>
+            <h2>CNTRL</h2>
+            <p>
+              ➢ Prototyped an iOS AR game that would be used to see the feasibility for movie licensed AR mobile games. 
+            </p>
+          </div>
+        </PortfolioContent>
+      </PortfolioDetails>
+
+      <PortfolioDetails>
+        <PortfolioContent>
+          <div>
+            <h2>Chevrolet Motor Company</h2>
+            <p>
+              ➢ Built the application that showcases a 3D rendered walkthrough of the Corvette and Silverado engines.
+            </p>
+            <p>
+              ➢ Website:{' '}
+              <a
+                href="https://www.chevrolet.com/trucks/silverado/limited"
+                target="_blank"
+                className="github-link">Silverado</a>
+            </p>
+            <p>
+              ➢ Website:{' '}
+              <a
+                href="https://www.chevrolet.com/performance/corvette"
+                target="_blank"
+                className="github-link">Corvette</a>
+            </p>
+          </div>
+        </PortfolioContent>
+      </PortfolioDetails>
+
+      <PortfolioDetails>
+        <PortfolioContent>
+          <div>
+            <h2>The Poolhouse</h2>
+            <p>
+              ➢ Maintained the frontend code for a SAAS website that connects professionals in the media industry for work, investment, and networking.
+            </p>
+            <p>
+              ➢ Website:{' '}
+              <a
+                href="https://the-poolhouse.com/"
+                target="_blank"
+                className="github-link">
+                The Poolhouse
+              </a>
+            </p>
+          </div>
+        </PortfolioContent>
+      </PortfolioDetails>
+
+      <PortfolioDetails>
+        <PortfolioContent>
+          <div>
             <h2>Share Analytics</h2>
             <p>
               ➢ Input a link and returns a tracker link gathers how many times
