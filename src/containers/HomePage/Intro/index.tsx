@@ -31,7 +31,7 @@ const SocialLinks = [
   {
     icon: <IoIosPaper />,
     url:
-      'https://drive.google.com/file/d/1-BxmXGcY3txAVsqGCzBO0x1CnxA4J8L7/view',
+      'https://drive.google.com/file/d/1S1Vf5IkfygPNTyHaQa-XNJ3QrurNnNtf/view?usp=sharing',
     tooltip: 'Resume',
   },
 ];
